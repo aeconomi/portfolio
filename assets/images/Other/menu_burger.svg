@@ -1,0 +1,21 @@
+<svg id="Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 166 89.61">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 4px;
+      }
+    </style>
+  </defs>
+  <title>Монтажная область 1</title>
+  <g id="Groupe_512" data-name="Groupe 512">
+    <g id="Groupe_494" data-name="Groupe 494">
+      <line id="Segment_313" data-name="Segment 313" class="cls-1" x1="164" y1="87.61" x2="2" y2="87.61"/>
+      <line id="Segment_314" data-name="Segment 314" class="cls-1" x1="164" y1="44.81" x2="2" y2="44.81"/>
+      <line id="Segment_315" data-name="Segment 315" class="cls-1" x1="164" y1="2" x2="2" y2="2"/>
+    </g>
+  </g>
+</svg>
