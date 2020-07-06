@@ -32,6 +32,48 @@
 ========================================================*/
 
 /* Custom CSS */
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+li {
+  font-size: 2.5vmin;
+}
+
+@media all and (orientation: landscape) {
+  #brands-content {
+    max-width: 800px;
+    margin-left: 32%;
+    margin-right: 20px;
+  }
+}
+
+@media all and (orientation: portrait) {
+  #brands-content {
+    width: 80%;
+    padding: 3%;
+    margin-left: 5%;
+    font-size: 3.1vmin;
+  }
+}
+
+
+
+.small-round-box {
+  border: #ECECF0 solid 1px;
+  border-radius: 10px;
+  padding: 25px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  height: 200px;
+  width: 375px;
+}
+
+
+
+
+
 .full-square {
   height: 40%;
   width: 100%;
@@ -62,6 +104,16 @@
 
 }
 
+.flex-container2 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: start;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+}
+
 
 .box {
 	background-color: white;
@@ -79,6 +131,27 @@
   }
 }
 
+@media all and (orientation: landscape) {
+  .box2 {
+    width: 100%;
+    padding-right: 10px;
+    margin-top: 40px;
+  }
+}
+
+@media all and (orientation: portrait) {
+  .box2 {
+    padding-right: 10px;
+    margin-top: 40px;
+    width: 100%;
+  }
+}
+
+
+.box2 h3 {
+  font-size: 2.5vmin;
+}
+
 h4 {
 	line-height: normal;
 	font-weight: 400;
@@ -87,7 +160,7 @@ h4 {
 }
 
 h2.title {
-  font: 100% Futura;
+  font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     color: #000000;
     font-size: 5.5vmin;
@@ -260,7 +333,7 @@ img {
   .futura,
   #brands-selector ul li a,
   #brands-contact .center-block .title h1 {
-    font: 100% Futura;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     color: #000000;
     font-size: 5.5vmin;
@@ -343,7 +416,7 @@ img {
   .futura,
   #brands-selector ul li a,
   #brands-contact .center-block .title h1 {
-    font: 100% Futura;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     color: #000000;
     font-size: 5.5vmin;
@@ -666,7 +739,7 @@ background-color: #f9c5d1;
   
   #brands-contact .center-block .content a button:hover {
       color: #000;
-      border: 1px solid #ffdd00;
+      border: 1px solid #9795ef;
   }
   
   #brands-contact .center-block .content a button:hover:after {
@@ -704,14 +777,15 @@ background-color: #f9c5d1;
   }
 
   p {
-    margin: 0
+    margin: 0;
+    font-size: 2.5vmin;
   }
 
   .futura,
   #brands-selector ul li a,
   #brands-expertises .title h1,
   #brands-expertises>div h1 {
-    font: 100% Futura;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     color: #000000;
     font-size: 5.5vmin;
@@ -802,7 +876,7 @@ background-color: #f9c5d1;
   #brands-selector ul li a,
   #brands-expertises .title h1,
   #brands-expertises>div h1 {
-    font: 100% Futura;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     color: #000000;
     font-size: 5.5vmin;
@@ -1196,7 +1270,7 @@ background-color: #f9c5d1;
   .futura,
   #brands-selector ul li a,
   #brands-partners .text h1 {
-    font: 100% Futura;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     color: #000000;
     font-size: 5.5vmin;
@@ -1275,7 +1349,7 @@ background-color: #f9c5d1;
   .futura,
   #brands-selector ul li a,
   #brands-partners .text h1 {
-    font: 100% Futura;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     color: #000000;
     font-size: 5.5vmin;
@@ -1502,7 +1576,7 @@ background-color: #f9c5d1;
   .futura,
   #brands-selector ul li a,
   #brands-presentation .title h1 {
-    font: 100% Futura;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     color: #000000;
     font-size: 5.5vmin;
@@ -1592,7 +1666,7 @@ background-color: #f9c5d1;
   .futura,
   #brands-selector ul li a,
   #brands-presentation .title h1 {
-    font: 100% Futura;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     color: #000000;
     font-size: 5.5vmin;
@@ -1865,14 +1939,14 @@ background-color: #f9c5d1;
     text-align: left;
     margin: 0;
     position: relative;
-    top: -0.6em
+    top: .6em
   }
 
   #brands-presentation .title p {
     font-weight: lighter;
     font-size: 3.5vmin;
     color: #4d4d4d;
-    margin-top: -1em
+    margin-top: 1em
   }
 
   @media all and (max-device-width: 480px),
@@ -1922,7 +1996,8 @@ background-color: #f9c5d1;
     height: 65%;
     width: 30%;
     z-index: -1;
-    opacity: 1
+    opacity: 1;
+    border-radius: 30px 25px 90px 15px;
   }
 
   @media all and (orientation: portrait) {
@@ -1947,7 +2022,7 @@ background-color: #f9c5d1;
   .futura,
   #brands-selector ul li a,
   #brands-references .content h1 {
-    font: 100% Futura;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     color: #000000;
     font-size: 5.5vmin;
@@ -2031,7 +2106,7 @@ background-color: #f9c5d1;
   .futura,
   #brands-selector ul li a,
   #brands-references .content h1 {
-    font: 100% Futura;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     color: #000000;
     font-size: 5.5vmin;
@@ -2255,7 +2330,7 @@ background-color: #f9c5d1;
   .futura,
   #brands-selector ul li a,
   #brands-video .title h1 {
-    font: 100% Futura;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     color: #000000;
     font-size: 5.5vmin;
@@ -2339,7 +2414,7 @@ background-color: #f9c5d1;
   .futura,
   #brands-selector ul li a,
   #brands-video .title h1 {
-    font: 100% Futura;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     color: #000000;
     font-size: 5.5vmin;
@@ -2627,7 +2702,7 @@ background-color: #f9c5d1;
 
   .futura,
   #brands-selector ul li a {
-    font: 100% Futura;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     color: #000000;
     font-size: 5.5vmin;
@@ -2883,7 +2958,8 @@ background-color: #f9c5d1;
 
   .futura,
   #apply .content h1 {
-    font: 100% Futura;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
     font-weight: bold;
     color: #000000;
     font-size: 5.5vmin;
@@ -3028,7 +3104,7 @@ background-color: #f9c5d1;
   
   #apply .content button:hover {
       color: #000;
-      border: 1px solid #ffdd00;
+      border: 1px solid #9795ef;
   }
   
   #apply .content button:hover:after {
@@ -3068,7 +3144,8 @@ background-color: #f9c5d1;
   .futura,
   #brands .content .title h1,
   #brands .content .detail #selector ul li h1 {
-    font: 100% Futura;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
     font-weight: bold;
     color: #000000;
     font-size: 5.5vmin;
@@ -3530,7 +3607,7 @@ background-color: #f9c5d1;
   
   #brands .content .detail .text a button:hover {
       color: #000;
-      border: 1px solid #ffdd00;
+      border: 1px solid #9795ef;
   }
   
   #brands .content .detail .text a button:hover:after {
@@ -3648,7 +3725,8 @@ background-color: #f9c5d1;
 
   .futura,
   #contact .contact_info>div h1 {
-    font: 100% Futura;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
     font-weight: bold;
     color: #000000;
     font-size: 5.5vmin;
@@ -3865,7 +3943,7 @@ background-color: #f9c5d1;
 
   #contact .contact_info .connect .contact_socials .fa:hover {
     font-size: 25px;
-    color: #FFDD00;
+    color: #9795ef;
     cursor: pointer;
     transition: 0.5s;
   }
@@ -3892,7 +3970,7 @@ background-color: #f9c5d1;
 
   #menu .menu_socials .fa:hover {
     font-size: 25px;
-    color: #FFDD00;
+    color: #9795ef;
     text-align: center;
     cursor: pointer;
     transition: 0.5s;
@@ -3946,7 +4024,7 @@ background-color: #f9c5d1;
   .futura,
   #menu .menu_entry p,
   #menu .menu_entry .menu_item {
-    font: 100% Futura;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     color: #000000;
     font-size: 5.5vmin;
@@ -4163,7 +4241,7 @@ background-color: #f9c5d1;
   .futura,
   #presentation .content h1,
   #presentation .key-numbers h1 {
-    font: 100% Futura;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     color: #000000;
     font-size: 5.5vmin;
@@ -4490,7 +4568,7 @@ background-color: #f9c5d1;
 
   #skills .content h1,
 .futura {
-    font: 100% Futura;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     color: #000000;
     font-size: 5.5vmin;
@@ -4627,7 +4705,7 @@ p {
 
 
   .futura {
-    font: 100% Futura;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     color: #000000;
     font-size: 5.5vmin;
@@ -4762,7 +4840,7 @@ background-color: #f9c5d1;
   }
 
   .futura {
-    font: 100% Futura;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     color: #000000;
     font-size: 5.5vmin;
@@ -5293,7 +5371,7 @@ background-color: #f9c5d1;
   }
 
   .futura {
-    font: 100% Futura;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     color: #000000;
     font-size: 5.5vmin;
@@ -5545,7 +5623,7 @@ background-color: #f9c5d1;
 
   .contact-projects .fa:hover {
     font-size: 18px;
-    color: #FFDD00;
+    color: #9795ef;
     cursor: pointer;
     transition: 0.5s;
   }
@@ -5569,7 +5647,7 @@ background-color: #f9c5d1;
   }
 
   .futura {
-    font: 100% Futura;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     color: #000000;
     font-size: 5.5vmin;
@@ -5643,12 +5721,12 @@ background-color: #f9c5d1;
 /************* Color of selection *************/
 
 ::-moz-selection {
-    background-color: #ffdd00;
+    background-color: #9795ef;
     color: #fff;
   }
 
 ::selection {
-  background-color: #ffdd00;
+  background-color: #9795ef;
   color: #fff;
 }
 
