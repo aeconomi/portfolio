@@ -309,22 +309,14 @@ img {
 	max-width: 100%;
 }
 
-@media screen and (max-width: 420px) {
-  img {
-    display: none;
-  }
-}
+
 
 .image {
 	display: block;
 	position: relative;
 }
 
-@media screen and (max-width: 420px) {
-  .image {
-    display: none;
-  }
-}
+
 
 .image img {
 	display: block;
@@ -333,11 +325,7 @@ img {
   margin: auto;
 }
 
-@media screen and (max-width: 420px) {
-  .image img {
-    display: none;
-  }
-}
+
 
 .icon {
 	-webkit-box-align: center;
@@ -350,11 +338,7 @@ img {
 	width: 3.5rem;
 }
 
-@media screen and (max-width: 420px) {
-  .icon {
-    display: none;
-  }
-}
+
 
  /************* Loader Animation *************/
 
