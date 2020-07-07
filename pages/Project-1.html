@@ -32,6 +32,9 @@
       <link rel="stylesheet" media="all" href="../assets/css/style.css"/>
       <!-- Bootstrap -->
       <link rel="stylesheet" media="all" href="../assets/css/bootstrap/bootstrap.css"/>
+       <!-- Flickity -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css" media="screen">
+       
       <!-- End Styles -->
    </head>
    <body>
@@ -225,11 +228,13 @@
                            for business travel, the company did a brand positioning workshop to help identify
                            high-growth target
                            prospects and customer personas.
-                           Our three high growth targets were identified as:
+                          
                         </p>
                         <br>
-                        <div class="flex-container2">
-                           <div class="personas" >
+                        <br>
+                        <div class="gallery js-flickity flex-conatiner2" style="background: background-color: #f9c5d1;
+                        background-image: linear-gradient(315deg, #f9c5d1 0%, #9795ef 74%);">
+                           <div class="gallery-cell personas" >
                               <div class="small-round-box"  >
                                  <h3>Bells and Whistles Leisure Travelers</h3>
                                  <p> Priority Needs:</p>
@@ -241,7 +246,7 @@
                                  </ul>
                               </div>
                            </div>
-                           <div class="personas" >
+                           <div class="gallery-cell personas" >
                               <div class="small-round-box" >
                                  <h3>Young College Educated Travelers</h3>
                                  <p> Priority Needs:</p>
@@ -252,7 +257,7 @@
                                  </ul>
                               </div>
                            </div>
-                           <div class="personas" >
+                           <div class="gallery-cell personas" >
                               <div class="small-round-box"  >
                                  <h3>“Earn From
                                     the Road” Delivery Drivers
@@ -264,6 +269,8 @@
                               </div>
                            </div>
                         </div>
+                        <br>
+                        <br>
                         <br>
                         <p>It was important for our team not only to position existing content to align with these persona’s needs, but also develop new content ideas and assets that would help catch their attention and move them closer to renting a vehicle. As a few actions from these findings, we gave our young driver page a content refresh, optimized for SEO, and added banners on the homepage targeted towards young drivers.</p>
                      </div>
@@ -283,7 +290,23 @@
                            </p>
                            <br>
                            <br>
-                           <img src="../assets/images/Other/transformation-hero-4.png">
+                           <div class="gallery js-flickity" >
+                              <div class="gallery-cell">
+                                 <div class="box3">
+                                 <img src="../assets/images/Other/kanban.png">
+                                 </div>
+                              </div>
+                            
+                              <div class="gallery-cell">
+                                 <div class="box3">
+                                 <img src="../assets/images/Other/transformation-hero-4.png">
+                                 </div>
+                              </div>
+                          
+                              
+                            </div>
+                            
+
                            
                         
                          
@@ -298,15 +321,11 @@
                        <div class="wrapper">
                         
                           <!-- End Dynamic Square-->
-                        <div class="content">
-                        
-                           
-                             <img src="../assets/images/Other/hertz-res-flow.gif" style="	box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #E6ECF8;">
                        
+                                    <img src="../assets/images/Other/hertz-res-flow.gif" style="	box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #E6ECF8;">
+                                 
                              
-                             
-                            
-                          </div>
+                           
                        </div>
                     </div>
                  </div>
@@ -318,24 +337,24 @@
                    <div class="wrapper">
                      
                       <!-- End Dynamic Square-->
-                      <div class="content">
-                        <div class="results">
-                           <div>
-                             <h1 class="counter">45%</h1>
-                         <p>Decrease in load time</p>
-                      
-                       </div>
+                  <div class="content">
+                     <div class="results">
                         <div>
-                           <h1 class="counter"></h1>
-                           <br>
-                         <p>
-                         Page load times dropped from 6 seconds to 3-4 seconds- a
-                          45% decrease.
+                              <h1 class="counter">45%</h1>
+                           <p>Decrease in load time</p>
+                        
+                        </div>
+                        <div>
                       
-                        </p>
-                       </div>
-                       </div>
+                              <p>
+                              Page load times dropped from 6 seconds to 3-4 seconds- a
+                              45% decrease.
+                           
+                              </p>
+                        </div>
+                     </div>
                        
+                    <br>
                     <br>
                   
                        <p>
@@ -375,6 +394,8 @@
       <!-- Scripts -->
       <script src="../assets/js/app.min.js"></script>
       <script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-31145879-1"></script>
+       <!-- Flickity -->
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
       <!-- End Scripts -->
    </body>
 </html>
