@@ -44,6 +44,19 @@ li {
   font-size: 2.5vmin;
 }
 
+@media screen and (max-width: 850px) {
+  li {
+    font-size: 2.2vmin;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  li {
+    font-size: 2.8vmin;
+  }
+}
+
+
 @media all and (orientation: landscape) {
   #brands-content {
     max-width: 800px;
@@ -57,7 +70,7 @@ li {
     width: 80%;
     padding: 3%;
     margin-left: 5%;
-    font-size: 2vmin;
+    font-size: 2.2vmin;
   }
 }
 
@@ -66,7 +79,7 @@ li {
 .small-round-box {
   border: #ECECF0 solid 1px;
   border-radius: 10px;
-  padding: 8%;
+  padding: 6%;
   margin-bottom: 20px;
   margin-right: 20px;
   height: 140px;
@@ -86,7 +99,7 @@ li {
 
 
 .small-round-box h3 {
-  font-size: 1.8vmin;
+  font-size: 2.2vmin;
   margin-top: 0;
   margin-bottom: .2rem;
 }
@@ -280,7 +293,7 @@ h2.title {
 @media screen and (max-width: 420px) {
 	.title {
     line-height: normal;
-    font-size: 3.5vmin;
+    font-size: 2.8vmin;
 	}
 }
 
@@ -294,7 +307,7 @@ h2.title {
 
 @media screen and (max-width: 420px) {
   .box p {
-      font-size: 3.5vmin;
+      font-size: 2.8vmin;
       margin-bottom: 0;
  
   }
@@ -425,14 +438,21 @@ img {
     color: #000000
   }
 
-  @media all and (max-device-width: 480px),
-  all and (max-device-width: 767px),
-  all and (max-width: 480px) {
+  @media  all and (max-device-width: 767px){
     .helvetica,
     #brands-contact .center-block .text p,
     #brands-contact .center-block .content a button {
       line-height: 1.25em;
-      font-size: 2vmin;
+      font-size: 2.2vmin;
+    }
+  }
+
+  @media  all and (max-device-width: 480px){
+    .helvetica,
+    #brands-contact .center-block .text p,
+    #brands-contact .center-block .content a button {
+      line-height: 1.25em;
+      font-size: 2.8vmin;
     }
   }
 
@@ -508,14 +528,21 @@ img {
     color: #000000
   }
 
-  @media all and (max-device-width: 480px),
-  all and (max-device-width: 767px),
-  all and (max-width: 480px) {
+  @media all and (max-device-width: 767px) {
     .helvetica,
     #brands-contact .center-block .text p,
     #brands-contact .center-block .content a button {
       line-height: 1.25em;
-      font-size: 2vmin
+      font-size: 2.2vmin
+    }
+  }
+
+  @media all and (max-device-width: 480px) {
+    .helvetica,
+    #brands-contact .center-block .text p,
+    #brands-contact .center-block .content a button {
+      line-height: 1.25em;
+      font-size: 2.8vmin
     }
   }
 
@@ -882,7 +909,7 @@ background-color: #f9c5d1;
     .helvetica,
     #brands-expertises>div p {
       line-height: 1.25em;
-      font-size: 2vmin
+      font-size: 2.2vmin
     }
   }
 
@@ -973,7 +1000,7 @@ background-color: #f9c5d1;
     .helvetica,
     #brands-expertises>div p {
       line-height: 1.25em;
-      font-size: 2vmin
+      font-size: 2.2vmin
     }
   }
 
@@ -1367,7 +1394,7 @@ background-color: #f9c5d1;
     .helvetica,
     #brands-partners .text p {
       line-height: 1.25em;
-      font-size: 2vmin
+      font-size: 2.2vmin
     }
   }
 
@@ -1446,7 +1473,7 @@ background-color: #f9c5d1;
     .helvetica,
     #brands-partners .text p {
       line-height: 1.25em;
-      font-size: 2vmin
+      font-size: 2.2vmin
     }
   }
 
@@ -1667,13 +1694,19 @@ background-color: #f9c5d1;
     color: #000000
   }
 
-  @media all and (max-device-width: 480px),
-  all and (max-device-width: 767px),
-  all and (max-width: 480px) {
+  @media all and (max-device-width: 767px) {
     .helvetica,
     #brands-presentation .content p {
       line-height: 1.25em;
-      font-size: 2vmin
+      font-size: 2.2vmin
+    }
+  }
+
+  @media all and (max-device-width: 480px) {
+    .helvetica,
+    #brands-presentation .content p {
+      line-height: 1.25em;
+      font-size: 2.8vmin
     }
   }
 
@@ -1757,13 +1790,19 @@ background-color: #f9c5d1;
     color: #000000
   }
 
-  @media all and (max-device-width: 480px),
-  all and (max-device-width: 767px),
-  all and (max-width: 480px) {
+  @media all and (max-device-width: 767px) {
     .helvetica,
     #brands-presentation .content p {
       line-height: 1.25em;
-      font-size: 2vmin
+      font-size: 2.2vmin
+    }
+  }
+
+  @media all and (max-device-width: 480px) {
+    .helvetica,
+    #brands-presentation .content p {
+      line-height: 1.25em;
+      font-size: 2.8vmin
     }
   }
 
@@ -2117,7 +2156,7 @@ background-color: #f9c5d1;
   all and (max-width: 480px) {
     .helvetica {
       line-height: 1.25em;
-      font-size: 2vmin
+      font-size: 2.2vmin
     }
   }
 
@@ -2201,7 +2240,7 @@ background-color: #f9c5d1;
   all and (max-width: 480px) {
     .helvetica {
       line-height: 1.25em;
-      font-size: 2vmin
+      font-size: 2.2vmin
     }
   }
 
@@ -2425,7 +2464,7 @@ background-color: #f9c5d1;
   all and (max-width: 480px) {
     .helvetica {
       line-height: 1.25em;
-      font-size: 2vmin
+      font-size: 2.2vmin
     }
   }
 
@@ -2509,7 +2548,7 @@ background-color: #f9c5d1;
   all and (max-width: 480px) {
     .helvetica {
       line-height: 1.25em;
-      font-size: 2vmin
+      font-size: 2.2vmin
     }
   }
 
@@ -2797,7 +2836,7 @@ background-color: #f9c5d1;
   all and (max-width: 480px) {
     .helvetica {
       line-height: 1.25em;
-      font-size: 2vmin
+      font-size: 2.2vmin
     }
   }
 
@@ -3058,7 +3097,7 @@ background-color: #f9c5d1;
     #apply .content p,
     #apply .content button {
       line-height: 1.25em;
-      font-size: 2vmin
+      font-size: 2.2vmin
     }
   }
 
@@ -3244,7 +3283,7 @@ background-color: #f9c5d1;
     #brands .content .detail .text div.description p,
     #brands .content .detail .text button {
       line-height: 1.25em;
-      font-size: 2vmin
+      font-size: 2.2vmin
     }
   }
 
@@ -3825,7 +3864,7 @@ background-color: #f9c5d1;
     #contact .contact_info>div p,
     #contact .contact_info>div a[href^="mailto"] {
       line-height: 1.25em;
-      font-size: 2vmin
+      font-size: 2.2vmin
     }
   }
 
@@ -4008,7 +4047,7 @@ background-color: #f9c5d1;
   }
 
   #contact .contact_info .connect .contact_socials a {
-    margin-right: 2vmin
+    margin-right: 2.2vmin
   }
 
   #contact .contact_info .connect .contact_socials .fa {
@@ -4119,7 +4158,7 @@ background-color: #f9c5d1;
   all and (max-width: 480px) {
     .helvetica {
       line-height: 1.25em;
-      font-size: 2vmin
+      font-size: 2.2vmin
     }
   }
 
@@ -4324,7 +4363,7 @@ background-color: #f9c5d1;
     text-transform: uppercase
   }
 
-  #presentation .key-numbers p {line-height:1.25em;font-size:2vmin}
+  #presentation .key-numbers p {line-height:1.25em;font-size:2.2vmin}
 
   .helvetica,
   #presentation .content p,
@@ -4342,7 +4381,7 @@ background-color: #f9c5d1;
     #presentation .content p,
     #presentation .key-numbers p {
       line-height: 1.25em;
-      font-size: 2vmin
+      font-size: 2.2vmin
     }
   }
 
@@ -4604,7 +4643,7 @@ background-color: #f9c5d1;
   }
 
   #presentation .key-numbers p {
-    font-size: 2vmin;
+    font-size: 2.2vmin;
     text-align: left
   }
 
@@ -4659,7 +4698,7 @@ background-color: #f9c5d1;
 @media all and (max-device-width: 480px), all and (max-device-width: 767px), all and (max-width: 480px) {
     .helvetica {
         line-height: 1.25em;
-        font-size: 2vmin;
+        font-size: 2.2vmin;
     }
 }
 .lato {
@@ -4800,7 +4839,7 @@ p {
   all and (max-width: 480px) {
     .helvetica {
       line-height: 1.25em;
-      font-size: 2vmin
+      font-size: 2.2vmin
     }
   }
 
@@ -4935,7 +4974,7 @@ background-color: #f9c5d1;
   all and (max-width: 480px) {
     .helvetica {
       line-height: 1.25em;
-      font-size: 2vmin
+      font-size: 2.2vmin
     }
   }
 
@@ -5182,7 +5221,7 @@ background-color: #f9c5d1;
   all and (max-width: 480px) {
     .futura {
       line-height: 1.25em;
-      font-size: 2vmin
+      font-size: 2.2vmin
     }
   }
   
@@ -5467,7 +5506,7 @@ background-color: #f9c5d1;
   all and (max-width: 480px) {
     .helvetica {
       line-height: 1.25em;
-      font-size: 2vmin
+      font-size: 2.2vmin
     }
   }
 
@@ -5743,7 +5782,7 @@ background-color: #f9c5d1;
   all and (max-width: 480px) {
     .helvetica {
       line-height: 1.25em;
-      font-size: 2vmin
+      font-size: 2.2vmin
     }
   }
 
@@ -5811,9 +5850,9 @@ background-color: #f9c5d1;
 
   }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 420px) {
  p {
-   font-size: 2vmin;
+   font-size: 2.8vmin;
  }
 
 }
