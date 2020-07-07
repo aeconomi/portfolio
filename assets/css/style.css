@@ -5917,7 +5917,7 @@ background-color: #f9c5d1;
 }
 /* fill-in selected dot */
 .flickity-page-dots .dot.is-selected {
-  background: white;
+  background: #000;
 }
 
 .flickity-prev-next-button svg {
