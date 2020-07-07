@@ -33,6 +33,9 @@
 
 /* Custom CSS */
 
+
+
+
 h1, h2, h3, h4, h5 {
   font-family: 'Montserrat', sans-serif;
 }
@@ -63,16 +66,74 @@ li {
 .small-round-box {
   border: #ECECF0 solid 1px;
   border-radius: 10px;
-  padding: 25px;
+  padding: 8%;
   margin-bottom: 20px;
   margin-right: 20px;
-  height: 200px;
-  width: 375px;
+  height: 175px;
+  max-width: 375px;
+}
+.small-round-box h3 {
+  font-size: 1.75vmin;
+}
+
+.small-round-box p {
+  font-size: 1.75vmin;
+}
+
+.small-round-box li {
+  font-size: 1.75vmin;
+}
+
+.small-round-box ul {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.split {
+  display: flex;
+}
+
+@media all and (orientation: landscape) {
+  .split>div:nth-of-type(odd) {
+    width: 45%;
+    padding-right: 20px;
+  }
+  .split>div:nth-of-type(even) {
+    width: 55%;
+  }
+
 }
 
 
+@media screen and (max-width: 767px) {
+  .split {
+    display: block;
+  }
+  .split>div:nth-of-type(odd) {
+    display: none;
+  }
+  .split>div:nth-of-type(even) {
+    width: 100%;
+  }
 
+}
 
+.results {
+  display: flex;
+}
+
+@media all and (orientation: landscape) {
+  .results>div:nth-of-type(odd) {
+    width: 30%;
+    padding-right: 20px;
+    text-align: center;
+
+  }
+  .results>div:nth-of-type(even) {
+    width: 70%;
+  }
+
+}
 
 .full-square {
   height: 40%;
@@ -134,8 +195,6 @@ li {
 @media all and (orientation: landscape) {
   .box2 {
     width: 100%;
-    padding-right: 10px;
-    margin-top: 40px;
   }
 }
 
@@ -1993,7 +2052,7 @@ background-color: #f9c5d1;
   }
 
   #brands-presentation .square.is-visible {
-    height: 65%;
+    height: 45%;
     width: 30%;
     z-index: -1;
     opacity: 1;
