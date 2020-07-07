@@ -57,7 +57,7 @@ li {
     width: 80%;
     padding: 3%;
     margin-left: 5%;
-    font-size: 3.1vmin;
+    font-size: 2vmin;
   }
 }
 
@@ -69,15 +69,31 @@ li {
   padding: 8%;
   margin-bottom: 20px;
   margin-right: 20px;
-  height: 175px;
+  height: 140px;
   max-width: 375px;
 }
+
+@media screen and (max-width: 850px) {
+  .small-round-box {
+    border: none;
+    padding: 0;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    height: 100%;
+    max-width: 375px;
+  }
+}
+
+
 .small-round-box h3 {
   font-size: 1.75vmin;
+  margin-top: 0;
+  margin-bottom: .2rem;
 }
 
 .small-round-box p {
   font-size: 1.75vmin;
+  margin-top: 0;
 }
 
 .small-round-box li {
@@ -120,17 +136,34 @@ li {
 
 .results {
   display: flex;
+  background: #fff;
+  border-radius: 6px;
+	  border: 1px solid transparent;
+    padding: 20px;
+    
+	  -moz-border-image: -moz-linear-gradient(top, #f9c5d1 0%, #9795ef 74%);
+	  -webkit-border-image: -webkit-linear-gradient(top, #f9c5d1 0%, #9795ef 74%);
+	  border-image: linear-gradient(to bottom,#f9c5d1 0%, #9795ef 74%);
+    
+    border-image-slice: 1;
+ 
+   
+
 }
+
+
 
 @media all and (orientation: landscape) {
   .results>div:nth-of-type(odd) {
-    width: 30%;
+    width: 40%;
     padding-right: 20px;
     text-align: center;
+    vertical-align:middle;
 
   }
   .results>div:nth-of-type(even) {
-    width: 70%;
+    width: 60%;
+    vertical-align:middle;
   }
 
 }
@@ -415,7 +448,7 @@ img {
     #brands-contact .center-block .text p,
     #brands-contact .center-block .content a button {
       line-height: 1.25em;
-      font-size: 3.1vmin
+      font-size: 2vmin;
     }
   }
 
@@ -498,7 +531,7 @@ img {
     #brands-contact .center-block .text p,
     #brands-contact .center-block .content a button {
       line-height: 1.25em;
-      font-size: 3.1vmin
+      font-size: 2vmin
     }
   }
 
@@ -865,7 +898,7 @@ background-color: #f9c5d1;
     .helvetica,
     #brands-expertises>div p {
       line-height: 1.25em;
-      font-size: 3.1vmin
+      font-size: 2vmin
     }
   }
 
@@ -956,7 +989,7 @@ background-color: #f9c5d1;
     .helvetica,
     #brands-expertises>div p {
       line-height: 1.25em;
-      font-size: 3.1vmin
+      font-size: 2vmin
     }
   }
 
@@ -1350,7 +1383,7 @@ background-color: #f9c5d1;
     .helvetica,
     #brands-partners .text p {
       line-height: 1.25em;
-      font-size: 3.1vmin
+      font-size: 2vmin
     }
   }
 
@@ -1429,7 +1462,7 @@ background-color: #f9c5d1;
     .helvetica,
     #brands-partners .text p {
       line-height: 1.25em;
-      font-size: 3.1vmin
+      font-size: 2vmin
     }
   }
 
@@ -1656,7 +1689,7 @@ background-color: #f9c5d1;
     .helvetica,
     #brands-presentation .content p {
       line-height: 1.25em;
-      font-size: 3.1vmin
+      font-size: 2vmin
     }
   }
 
@@ -1746,7 +1779,7 @@ background-color: #f9c5d1;
     .helvetica,
     #brands-presentation .content p {
       line-height: 1.25em;
-      font-size: 3.1vmin
+      font-size: 2vmin
     }
   }
 
@@ -2100,7 +2133,7 @@ background-color: #f9c5d1;
   all and (max-width: 480px) {
     .helvetica {
       line-height: 1.25em;
-      font-size: 3.1vmin
+      font-size: 2vmin
     }
   }
 
@@ -2184,7 +2217,7 @@ background-color: #f9c5d1;
   all and (max-width: 480px) {
     .helvetica {
       line-height: 1.25em;
-      font-size: 3.1vmin
+      font-size: 2vmin
     }
   }
 
@@ -2408,7 +2441,7 @@ background-color: #f9c5d1;
   all and (max-width: 480px) {
     .helvetica {
       line-height: 1.25em;
-      font-size: 3.1vmin
+      font-size: 2vmin
     }
   }
 
@@ -2492,7 +2525,7 @@ background-color: #f9c5d1;
   all and (max-width: 480px) {
     .helvetica {
       line-height: 1.25em;
-      font-size: 3.1vmin
+      font-size: 2vmin
     }
   }
 
@@ -2780,7 +2813,7 @@ background-color: #f9c5d1;
   all and (max-width: 480px) {
     .helvetica {
       line-height: 1.25em;
-      font-size: 3.1vmin
+      font-size: 2vmin
     }
   }
 
@@ -3041,7 +3074,7 @@ background-color: #f9c5d1;
     #apply .content p,
     #apply .content button {
       line-height: 1.25em;
-      font-size: 3.1vmin
+      font-size: 2vmin
     }
   }
 
@@ -3227,7 +3260,7 @@ background-color: #f9c5d1;
     #brands .content .detail .text div.description p,
     #brands .content .detail .text button {
       line-height: 1.25em;
-      font-size: 3.1vmin
+      font-size: 2vmin
     }
   }
 
@@ -3808,7 +3841,7 @@ background-color: #f9c5d1;
     #contact .contact_info>div p,
     #contact .contact_info>div a[href^="mailto"] {
       line-height: 1.25em;
-      font-size: 3.1vmin
+      font-size: 2vmin
     }
   }
 
@@ -4102,7 +4135,7 @@ background-color: #f9c5d1;
   all and (max-width: 480px) {
     .helvetica {
       line-height: 1.25em;
-      font-size: 3.1vmin
+      font-size: 2vmin
     }
   }
 
@@ -4307,7 +4340,7 @@ background-color: #f9c5d1;
     text-transform: uppercase
   }
 
-  #presentation .key-numbers p {line-height:1.25em;font-size:3.1vmin}
+  #presentation .key-numbers p {line-height:1.25em;font-size:2vmin}
 
   .helvetica,
   #presentation .content p,
@@ -4325,7 +4358,7 @@ background-color: #f9c5d1;
     #presentation .content p,
     #presentation .key-numbers p {
       line-height: 1.25em;
-      font-size: 3.1vmin
+      font-size: 2vmin
     }
   }
 
@@ -4642,7 +4675,7 @@ background-color: #f9c5d1;
 @media all and (max-device-width: 480px), all and (max-device-width: 767px), all and (max-width: 480px) {
     .helvetica {
         line-height: 1.25em;
-        font-size: 3.1vmin;
+        font-size: 2vmin;
     }
 }
 .lato {
@@ -4783,7 +4816,7 @@ p {
   all and (max-width: 480px) {
     .helvetica {
       line-height: 1.25em;
-      font-size: 3.1vmin
+      font-size: 2vmin
     }
   }
 
@@ -4918,7 +4951,7 @@ background-color: #f9c5d1;
   all and (max-width: 480px) {
     .helvetica {
       line-height: 1.25em;
-      font-size: 3.1vmin
+      font-size: 2vmin
     }
   }
 
@@ -5165,7 +5198,7 @@ background-color: #f9c5d1;
   all and (max-width: 480px) {
     .futura {
       line-height: 1.25em;
-      font-size: 3.1vmin
+      font-size: 2vmin
     }
   }
   
@@ -5288,7 +5321,8 @@ background-color: #f9c5d1;
     margin-top: -32px;
     top: 50%;
     opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0)
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
   }
 
   #fp-nav.right {
@@ -5449,7 +5483,7 @@ background-color: #f9c5d1;
   all and (max-width: 480px) {
     .helvetica {
       line-height: 1.25em;
-      font-size: 3.1vmin
+      font-size: 2vmin
     }
   }
 
@@ -5725,7 +5759,7 @@ background-color: #f9c5d1;
   all and (max-width: 480px) {
     .helvetica {
       line-height: 1.25em;
-      font-size: 3.1vmin
+      font-size: 2vmin
     }
   }
 
@@ -5791,4 +5825,11 @@ background-color: #f9c5d1;
 
 /************* End Color of selection *************/
 
+  }
 
+@media screen and (max-width: 850px) {
+ p {
+   font-size: 2vmin;
+ }
+
+}
