@@ -194,12 +194,7 @@ li {
   z-index: -1; 
 }
 
-@media screen and (max-width: 420px) {
-  .full-square {
-    height: 100vh;
-    border-bottom: 1px solid white;
-  }
-}
+
 
 .flex-container {
    display: flex;
@@ -274,11 +269,7 @@ h2.title {
     margin-top: -20px;
 }
 
-@media screen and (max-width: 767px) {
-  h2.title {
-    margin-top: -20%;
-  }
-}
+
 
 .title {
 	font-size: 2.5vmin;
