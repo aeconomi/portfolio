@@ -52,7 +52,7 @@ li {
 
 @media screen and (max-width: 480px) {
   li {
-    font-size: 2.8vmin;
+    font-size: 2.5vmin;
   }
 }
 
@@ -117,6 +117,22 @@ li {
   margin-bottom: 0;
   margin-top: 0;
 }
+
+@media screen and (max-width: 850px) {
+  .small-round-box h3 {
+    font-size: 2.5vmin;
+  }
+  
+  .small-round-box p {
+    font-size: 2.5vmin;
+    margin-top: 0;
+  }
+  
+  .small-round-box li {
+    font-size: 2.5vmin;
+  }
+}
+
 
 .split {
   display: flex;
