@@ -106,7 +106,7 @@ li {
     border-radius: 10px;
     padding: 6%;
     margin-bottom: 20px;
-    margin-left: 20px;
+    margin-left: 40px;
     height: 75px;
     width: 200px;
   }
@@ -2206,8 +2206,8 @@ background-color: #f9c5d1;
 
   @media all and (orientation: portrait) {
     #brands-presentation .square.is-visible {
-      width: 40%;
-      height: 60%
+      width: 68%;
+      height: 12%;
     }
   }
 
