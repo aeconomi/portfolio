@@ -210,19 +210,23 @@ li {
 
 
 @media all and (orientation: portrait) {
-  .results>div:nth-of-type(odd) {
-    width: 50%;
-    padding-right: 20px;
+   .results>div:nth-of-type(odd) {
+    margin-bottom: 20px;
     text-align: center;
-
+    background-image: linear-gradient(315deg, #f9c5d1 0%, #9795ef 74%);
+    padding: 25px;
+    border-radius: 6px;
+    width: 40%;
   }
-  .results>div:nth-of-type(even) {
-    width: 50%;
-  }
+ 
 
   .results h1 {
     margin: 0;
-  
+    font-size: 5vmin;
+  }
+
+  .results {
+    display: block;
   }
 
 }
@@ -2203,7 +2207,7 @@ background-color: #f9c5d1;
   @media all and (orientation: portrait) {
     #brands-presentation .square.is-visible {
       width: 68%;
-      height: 12%;
+      height: 13%;
     }
   }
 
@@ -5437,7 +5441,7 @@ background-color: #f9c5d1;
     position: fixed;
     z-index: 100;
     margin-top: -32px;
-    top: 50%;
+    top: 85%;
     opacity: 1;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
