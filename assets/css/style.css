@@ -74,7 +74,41 @@ li {
   }
 }
 
+.circle {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  border: 2px solid #333;
+  padding: 4px;
+  color: #333;
+  text-align: center;
+  font: 1rem 'Montserrat', sans-serif;
+  font-weight: 700;
+  display: inline-block;
+  margin-top: 0px;
+}
 
+p.numbers {
+  margin-top: auto;
+    display: inline-block;
+    color: #333;
+    font-weight: 400;
+    font-size: 2vmin;
+}
+
+@media all and (orientation: portrait) {
+  .circle {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #333;
+  padding: 2px;
+  }
+  
+  p.numbers {
+      font-size: 2.5vmin;
+  }
+  
+}
 
 .small-round-box {
   border: #ECECF0 solid 1px;
@@ -149,8 +183,31 @@ li {
 } */
 
 
+
+.top-questions p {
+  font-size: 2vmin;
+  margin-top: 1rem;
+  margin-left: 10px;
+}
+
 .split {
   display: flex;
+}
+
+.inline {
+  display: flex;
+ 
+}
+
+.inline {
+  align-items: center;
+  justify-content: center;
+}
+
+.inline img {
+  height: 30px;
+  margin-right: 10px;
+  margin-left: -10px;
 }
 
 @media all and (orientation: landscape) {
@@ -265,6 +322,48 @@ li {
   margin: 0;
   list-style: none;
 
+}
+
+.flex-container-numbers {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: start;
+  padding: 0;
+  margin: 10px;
+  list-style: none;
+
+}
+
+.flex-container-numbers table {
+  width: 50%;
+  padding: 20px;
+}
+
+
+
+.flex-container-numbers td {
+  vertical-align: top;
+  padding-bottom: 1em;
+  padding-right: 10px;
+
+}
+
+
+
+@media all and (orientation: portrait) {
+  .flex-container-numbers {
+    display: block
+  }
+  .flex-container-numbers table {
+    width: 100%
+  }
+
+  .flex-container-numbers td {
+    padding-bottom: .5em;
+    padding-right: 10px;
+  
+  }
+  
 }
 
 
@@ -1372,7 +1471,6 @@ background-color: #f9c5d1;
 
   #brands-expertises>div h1 {
     font-size: 3vmin;
-    margin-top: -0.6em
   }
 
   @media all and (min-device-width: 1025px) and (min-width: 1025px) {
@@ -1442,10 +1540,11 @@ background-color: #f9c5d1;
   }
 
   #brands-expertises .square.is-visible {
-    height: 35%;
-    width: 20%;
+    height: 38%;
+    width: 25%;
     z-index: -1;
-    opacity: 1
+    opacity: 1;
+    border-radius: 30px 25px 90px 15px;
   }
 
   @media all and (orientation: portrait) {
