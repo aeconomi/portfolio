@@ -6144,3 +6144,31 @@ background-color: #f9c5d1;
   height: auto;
   max-height: 100%;
 }
+
+@media screen and (max-width: 750px) {
+  .carousel-image {
+    display: block;
+    height: 200px;
+    /* set min-width, allow images to set cell width */
+    min-width: 150px;
+    max-width: 100%;
+    margin-right: 10px;
+    /* vertically center */
+    top: 50%;
+    transform: translateY(-50%)
+  }
+  }
+
+  @media screen and (max-width: 420px) {
+    .carousel-image {
+      display: block;
+      height: 150px;
+      /* set min-width, allow images to set cell width */
+      min-width: 150px;
+      max-width: 100%;
+      margin-right: 10px;
+      /* vertically center */
+      top: 50%;
+      transform: translateY(-50%)
+    }
+    }
