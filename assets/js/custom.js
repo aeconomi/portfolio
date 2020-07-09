@@ -57,6 +57,6 @@ window.onload = function() {
 };
 
 
-lazyLoad: true
+
 
 

@@ -32,7 +32,8 @@
       <!-- Bootstrap -->
       <link rel="stylesheet" media="all" href="../assets/css/bootstrap/bootstrap.css"/>
       <!-- Flickity -->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css" media="screen">
+      <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.css">
+      <link rel="stylesheet" href="https://unpkg.com/flickity-fullscreen@1/fullscreen.css">
       <!-- End Styles -->
    </head>
    <body>
@@ -241,7 +242,7 @@
                         </p>
                         <br>
                         <br>
-                        <div class="gallery js-flickity flex-conatiner2">
+                        <!-- <div class="gallery js-flickity flex-conatiner2">
                            <div class="gallery-cell" >
                               <div class="box3">
                                  <img src="../assets/images/Other/reservation-number.png">
@@ -262,7 +263,26 @@
                                  <img src="../assets/images/Other/parking.png">
                               </div>
                            </div>
-                        </div>
+                        </div> -->
+
+
+                     <!-- Flickity HTML init -->
+                     <div class="carousel" data-flickity='{ "fullscreen": true, "lazyLoad": 2 }'>
+                        <img class="carousel-image"
+                           data-flickity-lazyload="../assets/images/Other/reservation-number.png" />
+                        <img class="carousel-image"
+                           data-flickity-lazyload="../assets/images/Other/account-info.png" />
+                        <img class="carousel-image"
+                           data-flickity-lazyload="../assets/images/Other/trip-summary.png" />
+                        <img class="carousel-image"
+                           data-flickity-lazyload="../assets/images/Other/parking.png" />
+                     </div>
+                    <style>
+                       .flickity-fullscreen-button {
+                          display: none;
+                       }
+                    </style>
+
                      </div>
                   </div>
                </div>
@@ -435,9 +455,9 @@ I was grateful to be a part of the mobile app development project- from updating
       </div>
       <!-- Scripts -->
       <script src="../assets/js/app.min.js"></script>
-      <script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-31145879-1"></script>
       <!-- Flickity -->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
+      <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.js"></script>
+      <script src="https://unpkg.com/flickity-fullscreen@1/fullscreen.js"></script>
       <!-- End Scripts -->
    </body>
 </html>
