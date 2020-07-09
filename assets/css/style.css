@@ -100,8 +100,9 @@ p.numbers {
   .circle {
   width: 20px;
   height: 20px;
-  border: 2px solid #333;
+  border: 1px solid #333;
   font: 1.25rem 'Montserrat', sans-serif;
+  padding: 1px;
   }
   
   p.numbers {
@@ -1499,7 +1500,7 @@ background-color: #f9c5d1;
   all and (orientation: portrait) and (max-device-width: 767px),
   all and (orientation: portrait) and (max-width: 480px) {
     #brands-expertises>div {
-      padding: 3% 10%
+      padding: 1% 10%
     }
   }
 
@@ -1587,7 +1588,7 @@ background-color: #f9c5d1;
   @media all and (orientation: portrait) {
     #brands-expertises .square.is-visible {
       width: 84%;
-      height: 12%
+      height: 16%
     }
   }
 
