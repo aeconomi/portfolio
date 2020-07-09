@@ -417,6 +417,7 @@ p.numbers {
 @media screen and (max-width: 420px) {
   .box {
     padding: 20px 20px 20px 20px;
+   
   }
 }
 
@@ -6165,3 +6166,4 @@ background-color: #f9c5d1;
   width: 50%;
   height: 50%;
 }
+
