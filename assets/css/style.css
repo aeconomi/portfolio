@@ -288,6 +288,15 @@ p.numbers {
     font-size: 5vmin;
   }
 
+  .results2 h1 {
+    margin: 0;
+    font-size: 5vmin;
+  }
+
+  .results2 {
+    margin-right: 0;
+  }
+
   .results {
     display: block;
   }
@@ -5569,7 +5578,7 @@ background-color: #f9c5d1;
     z-index: 100;
     margin-top: -32px;
     top: 85%;
-    opacity: 1;
+    opacity: 0;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
