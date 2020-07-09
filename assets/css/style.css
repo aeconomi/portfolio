@@ -101,7 +101,7 @@ p.numbers {
   width: 20px;
   height: 20px;
   border: 2px solid #333;
-  padding: 2px;
+  font: 1.25rem 'Montserrat', sans-serif;
   }
   
   p.numbers {
@@ -235,7 +235,9 @@ p.numbers {
 
 }
 
-
+.results {
+  display: flex;
+}
 
 .results h1 {
   margin: 0;
@@ -338,14 +340,22 @@ p.numbers {
   flex-flow: row wrap;
   justify-content: start;
   padding: 0;
-  margin: 10px;
+
   list-style: none;
 
 }
 
 .flex-container-numbers table {
-  width: 50%;
-  padding: 20px;
+  width: 45%;
+
+}
+
+
+.flex-container-numbers img {
+  width: 55%;
+  height: auto;
+  padding-left: 20px;
+ 
 }
 
 
@@ -358,8 +368,7 @@ p.numbers {
 }
 
 
-
-@media all and (orientation: portrait) {
+@media screen and (max-width: 1100px) {
   .flex-container-numbers {
     display: block
   }
@@ -371,6 +380,13 @@ p.numbers {
     padding-bottom: .5em;
     padding-right: 10px;
   
+  }
+  .flex-container-numbers img {
+    width: 100%;
+    height: auto;
+    margin-top: 7%;
+    padding-left: 0;
+   
   }
   
 }
