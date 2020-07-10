@@ -663,6 +663,8 @@ img {
     color: #000000
   }
 
+ 
+
   @media  all and (max-device-width: 767px){
     .helvetica,
     #brands-contact .center-block .text p,
@@ -3504,9 +3506,21 @@ background-color: #f9c5d1;
     color: #000000
   }
 
-  @media all and (max-device-width: 480px),
-  all and (max-device-width: 767px),
-  all and (max-width: 480px) {
+  @media  all and (max-device-width: 950px){
+    .helvetica,
+    #brands .content .detail .text div.description p,
+    #brands .content .detail .text button {
+      font: 100% Helvetica Neue Light;
+      line-height: 1.6em;
+      font-size: 2.25vmin;
+      color: #000000
+    }
+  }
+
+
+
+
+  @media all and (max-device-width: 480px) {
     .helvetica,
     #brands .content .detail .text div.description p,
     #brands .content .detail .text button {
@@ -3612,8 +3626,15 @@ background-color: #f9c5d1;
     -ms-flex-direction: row;
     flex-direction: row;
     -webkit-justify-content: center;
-    justify-content: center;
-    width: 100%
+    justify-content: flex-end;
+    width: 55%;
+  }
+
+  @media screen and (max-width: 1140px) {
+    #brands .content .title {
+      width: 60%;
+      margin-top: -75px;
+    }
   }
 
   @media all and (orientation: portrait) {
@@ -3871,7 +3892,7 @@ background-color: #f9c5d1;
 
   #brands .content .detail .text {
     height: 100%;
-    margin-left: 34px;
+    margin-left: 5%;
     width: 50%;
     display: -webkit-box;
     display: -moz-box;
@@ -3882,7 +3903,15 @@ background-color: #f9c5d1;
     -ms-flex-direction: column;
     flex-direction: column;
     -webkit-justify-content: center;
-    justify-content: center
+    justify-content: center;
+  }
+
+  @media screen and (max-width: 850px) {
+    #brands .content .detail .text {
+      margin-left: 0;
+      width: 50%;
+      margin-right: 15%;
+    }
   }
 
   @media all and (orientation: portrait) {
@@ -3941,8 +3970,8 @@ background-color: #f9c5d1;
       bottom: 0;
       left: 0;
       z-index: -1;
-  background-color: #f9c5d1;
-    background-image: linear-gradient(315deg, #f9c5d1 0%, #9795ef 74%);
+  background-color: white;
+    
 
 
       transition: all 0.3s ease;
@@ -3950,7 +3979,7 @@ background-color: #f9c5d1;
   
   #brands .content .detail .text a button:hover {
       color: #000;
-      border: 1px solid #9795ef;
+      border: 1px solid #000;
   }
   
   #brands .content .detail .text a button:hover:after {
@@ -4037,8 +4066,15 @@ background-color: #f9c5d1;
     height: 0;
     width: 2%;
     top: 20%;
-    left: 50%;
-    opacity: 0
+    left: 30%;
+    opacity: 0;
+  }
+
+  @media screen and (max-width: 850px) {
+    #brands .square {
+      left: 33%;
+    }
+
   }
 
   @media all and (orientation: portrait) {
@@ -4048,11 +4084,13 @@ background-color: #f9c5d1;
   }
 
   #brands .square.is-visible {
-    height: 50vh;
-    width: 40vw;
-    border-radius: 30px 25px 0px 90px;
-    opacity: 1
+    height: 55vh;
+    width: 60vw;
+    border-radius: 30px 25px 90px 15px;
+    opacity: 1;
   }
+
+
 
   @media all and (orientation: portrait) {
     #brands .square.is-visible {
@@ -6173,7 +6211,15 @@ background-color: #f9c5d1;
     }
     }
 
-   
+    @media screen and (max-width: 1000px)  {
+      #desktop-csr {
+        display: none;
+      }
+    }
 
-   
+    @media screen and (min-width: 1001px) {
+      #mobile-csr {
+        display: none;
+      }
+    }
     
