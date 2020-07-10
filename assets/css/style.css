@@ -4095,7 +4095,7 @@ background-color: #f9c5d1;
   @media all and (orientation: portrait) {
     #brands .square.is-visible {
       top: 25%;
-      width: calc(50% - 5vmin);
+      width: calc(90% - 5vmin);
       height: 50vh
     }
   }
