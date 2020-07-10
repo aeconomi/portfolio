@@ -3970,7 +3970,7 @@ background-color: #f9c5d1;
       bottom: 0;
       left: 0;
       z-index: -1;
-  background-color: white;
+  background-color: #202020;
     
 
 
@@ -3978,7 +3978,7 @@ background-color: #f9c5d1;
   }
   
   #brands .content .detail .text a button:hover {
-      color: #000;
+      color: #fff;
       border: 1px solid #000;
   }
   
