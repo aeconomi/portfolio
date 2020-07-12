@@ -6130,20 +6130,7 @@ background-color: #f9c5d1;
 
 /* external css: flickity.css */
 
-@media screen and (min-width: 1170px) {
-  #skills-mobile{
-    display: none;
-   
-  }
-  }
 
-  @media screen and (max-width: 1169px) {
-    #skills-desktop{
-      display: none;
-     
-    }
-    }
-  
   .flickity-slider {
   display: flex;
   align-items: center;
@@ -6161,65 +6148,7 @@ background-color: #f9c5d1;
 
 
 
-/* Test */
 
 
 
-.carousel-image {
-  display: block;
-  height: 350px;
-  /* set min-width, allow images to set cell width */
-  min-width: 150px;
-  max-width: 100%;
-  margin-right: 10px;
-  /* vertically center */
-  top: 50%;
-  transform: translateY(-50%);
-  border-radius: 6px;
-}
-
-.carousel.is-fullscreen .carousel-image {
-  height: auto;
-  max-height: 100%;
-}
-
-@media screen and (max-width: 750px) {
-  .carousel-image {
-    display: block;
-    height: 200px;
-    /* set min-width, allow images to set cell width */
-    min-width: 150px;
-    max-width: 100%;
-    margin-right: 10px;
-    /* vertically center */
-    top: 50%;
-    transform: translateY(-50%)
-  }
-  }
-
-  @media screen and (max-width: 420px) {
-    .carousel-image {
-      display: block;
-      height: 150px;
-      /* set min-width, allow images to set cell width */
-      min-width: 150px;
-      max-width: 100%;
-      margin-right: 10px;
-      /* vertically center */
-      top: 50%;
-      transform: translateY(-50%)
-    }
-    }
-
-    @media screen and (max-width: 1000px)  {
-      #desktop-csr {
-        display: none;
-      }
-    }
-
-    @media screen and (min-width: 1001px) {
-      #mobile-csr {
-        display: none;
-      }
-    }
-    
+      
