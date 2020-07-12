@@ -4031,7 +4031,7 @@ background-color: #f9c5d1;
       line-height: initial
     }
     #brands .content .detail .bottom-slider div img {
-      height: 5vh;
+      height: 6vh;
     }
     #brands .content .detail .bottom-slider .bottom-slide {
       display: inline-flex;
@@ -6186,7 +6186,7 @@ background-color: #f9c5d1;
 
 #skills-mobile .arrow {
   width: 30px;
-  height: 4vh;
+  height: 30px;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
