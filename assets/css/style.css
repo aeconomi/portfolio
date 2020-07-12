@@ -518,7 +518,7 @@ h2.title {
 @media screen and (max-width: 420px) {
 	.title {
     line-height: normal;
-    font-size: 2.8vmin;
+    font-size: 3.5vmin;
 	}
 }
 
@@ -532,7 +532,7 @@ h2.title {
 
 @media screen and (max-width: 420px) {
   .box p {
-      font-size: 2.8vmin;
+      font-size: 3.5vmin;
       margin-bottom: 20px;
  
   }
@@ -3327,7 +3327,7 @@ background-color: #f9c5d1;
     #apply .content p,
     #apply .content button {
       line-height: 1.25em;
-      font-size: 2.2vmin
+      font-size: 3.5vmin
     }
   }
 
