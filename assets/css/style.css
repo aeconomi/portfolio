@@ -6196,12 +6196,12 @@ background-color: #f9c5d1;
 }
 
 #skills-mobile .arrow--left {
-  left: 5px;
+  left: 3%;
 }
 
 #skills-mobile .arrow--right {
   left: auto;
-  right: 5px;
+  right: 3%;
 }
 
 #skills-mobile .arrow--disabled {
