@@ -6191,7 +6191,7 @@ background-color: #f9c5d1;
   top: 50%;
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
-  fill: #333;
+  fill: transparent;
   cursor: pointer;
 }
 
