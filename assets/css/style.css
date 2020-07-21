@@ -6271,11 +6271,21 @@ background-color: #f9c5d1;
 
 
 
+@media screen and (min-width: 769px) {
 
+#mobile-csr {
+  display: none;
+}
 
+}
 
+@media screen and (max-width: 769px) {
 
-
+  #desktop-csr {
+    display: none;
+  }
+  
+  }
 
 
 
