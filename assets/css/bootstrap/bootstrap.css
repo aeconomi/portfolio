@@ -1051,11 +1051,11 @@ button, input, select, textarea {
 	line-height: inherit
 }
 a {
-	color: #d7a955;
+	color: #b6b4b4;
 	text-decoration: none
 }
 a:focus, a:hover {
-	color: #af9057;
+	color: #969393;
 	text-decoration: none
 }
 a:focus {
@@ -2910,7 +2910,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
 	border-color: transparent
 }
 .btn-link:focus, .btn-link:hover {
-	color: #af9057;
+	color: #969393;
 	text-decoration: underline;
 	background-color: transparent
 }
@@ -4068,7 +4068,7 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 }
 .pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
 	z-index: 2;
-	color: #af9057;
+	color: #969393;
 	background-color: #eee;
 	border-color: #ddd
 }
