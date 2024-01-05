@@ -3627,7 +3627,7 @@ background-color: #fff6ba;
     flex-direction: row;
     -webkit-justify-content: center;
     justify-content: flex-end;
-    width: 55%;
+    width: 53%;
   }
 
   @media screen and (max-width: 1140px) {
