@@ -3481,8 +3481,9 @@ background-color: #c0c0c0;
     top: 0;
     left: 0;
     right: 0;
-    opacity: 1
-    border-radius: 10% 30% 20% 40% / 40% 20% 30% 10%;  
+    opacity: 1;
+    /* Unique border-radius for each corner */
+    border-radius: 10% 30% 20% 40% / 40% 20% 30% 10%;
   }
 
   p {
