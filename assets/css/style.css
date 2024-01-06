@@ -317,7 +317,7 @@ p.numbers {
   top: 0;
   z-index: -1; 
 /* Unique border-radius for each corner */
-    border-radius: 10% 30% 20% 40% / 40% 20% 30% 10%;	
+    border-radius: 40% 20% 30% 10% / 10% 30% 20% 40%;
 }
 
 
