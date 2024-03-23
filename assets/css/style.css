@@ -75,9 +75,10 @@ li {
 
 @media all and (orientation: landscape) {
   #brands-content {
-    max-width: 800px;
+max-width: 90%;
     margin-left: 32%;
     margin-right: 20px;
+    padding-right: 10%;
   }
 }
 
