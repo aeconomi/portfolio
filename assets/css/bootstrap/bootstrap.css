@@ -1148,7 +1148,7 @@ hr {
 
 @media screen and (max-width: 1600px) {
 .h2, h2 {
-	font-size: 30px
+	font-size: 25px;
 	padding-bottom: 5px;
 }
 }
