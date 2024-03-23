@@ -1153,6 +1153,15 @@ hr {
 }
 }
 
+
+@media screen and (max-width: 800px) {
+.h2, h2 {
+	font-size: 20px
+	padding-bottom: 5px;
+}
+}
+
+
 .h3, h3 {
 	font-size: 24px
 }
