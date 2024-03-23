@@ -37,7 +37,7 @@
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start; /* Adjusts the alignment of the items if their heights are different */
-  gap: 20px; /* Adjust the gap between the text and the image */
+  gap: 5%; /* Adjust the gap between the text and the image */
 }
 
 .content-flex .text-section, .content-flex .image-section {
