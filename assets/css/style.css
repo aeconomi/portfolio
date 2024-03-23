@@ -29,6 +29,29 @@
 
 
 
+
+
+.content-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start; /* Adjusts the alignment of the items if their heights are different */
+  gap: 20px; /* Adjust the gap between the text and the image */
+}
+
+.content-flex .text-section, .content-flex .image-section {
+  flex: 1; /* Causes the text and image sections to share the available space */
+  min-width: 300px; /* Prevents the sections from becoming too narrow */
+}
+
+/* Optional: Style for images to ensure they are responsive within their flex container */
+.content-flex .image-section img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+
 h1, h2, h3, h4, h5 {
   font-family: 'Montserrat', sans-serif;
 }
