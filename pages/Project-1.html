@@ -1,4 +1,11 @@
-<!DOCTYPE html>
+
+
+
+
+
+
+
+                     <!DOCTYPE html>
 <html>
    <head>
       <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -214,12 +221,13 @@
                <div id="brands-content">
                   <div class="wrapper">
                      <h2>SOLUTION</h2>
-                     <div class="content-flex">
-                        <div class="text-section">
+                     <div class="content">
+                        <div>
                            <p>To address this, Bounteous proposed a global design system allowing shared components across brands, maintaining brand uniqueness while reducing the component library size and ensuring consistency in user interaction and accessibility. This system was planned to evolve with Gap's digital needs and included a workflow for managing and updating the component library.
                            </p>
                         </div>
-                        <div class="image-section">
+                            <br>
+                        <div>
                            <img src="../assets/images/Other/gap-solution-wireframes.png">
                          </div>
                      </div>
@@ -232,12 +240,13 @@
                <div id="brands-content">
                   <div class="wrapper">
                      <h2>MY ROLE</h2>
-                     <div class="content-flex">
-                        <div class="text-section">
+                     <div class="content">
+                        <div>
                             <p>As product owner, my role involved aligning business stakeholders within Gap and the Bounteous and Gap creative and development teams to ensure that both the designs and components satisfied business requirements and matched the brand's expectations within the global design system framework. Some of my responsibilities included conducting interviews with stakeholders, annotating requirements, and supplying documentation and specifications to facilitate the development team's work on building these components.
                           </p>
                         </div>
-                        <div class="image-section">
+                        <br>
+                        <div>
                             <img src="../assets/images/Other/gap-my-role-wireframes.png">
                         </div>
                      </div>
@@ -249,37 +258,66 @@
             <!-- Content Section -->
             <div class="section">
                <div id="brands-content">
-                  <div class="wrapper">
-                     <div class="content">
-                        <h2>RESULTS</h2>
-                        <div class="flex-container3">
-                           <div class="results2">
-                              <div>
-                                 <h1 class="counter">4.8</h1>
-                                 <p>App Store Rating</p>
-                              </div>
-                           </div>
-                           <div class="results2">
-                              <div>
-                                 <h1 class="counter">37%+</h1>
-                                 <p>Monthly app users</p>
-                              </div>
-                           </div>
-                           <div class="results2">
-                              <div>
-                                 <h1 class="counter">54%+</h1>
-                                 <p>Sessions</p>
-                              </div>
-                           </div>
-                           <div class="results2">
-                              <div>
-                                 <h1 class="counter">84%+</h1>
-                                 <p>Screens/session</p>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
+                   <!-- Text with Counters -->
+                   <div class="key-numbers">
+                    <!-- First Counter -->
+                    <div>
+                       <span>
+                          <!-- Dynamic Counter -->
+                          <h1 class="counter" data-target="76">76</h1>
+                          <!-- Symbol -->
+                          <h1></h1>
+                       </span>
+                       <!-- Text -->
+                       <p>Page Revamps</p>
+                    </div>
+                    <!-- Second Counter -->
+                    <div>
+                       <span>
+                          <!-- Dynamic Counter -->
+                          <h1 class="counter" data-target="3">3</h1>
+                          <!-- Symbol -->
+                          <h1></h1>
+                       </span>
+                       <!-- Text -->
+                       <p>Website Migrations</p>
+                    </div>
+                    <!-- Third Counter -->
+                    <div>
+                       <span>
+                          <!-- Dynamic Counter -->
+                          <h1 class="counter" data-target="6000">6</h1>
+                          <!-- Symbol -->
+                          <h1>K</h1>
+                       </span>
+                       <!-- Text -->
+                       <p>Pages Migrated</p>
+                    </div>
+                    <!-- Fourth Counter -->
+                    <div>
+                       <span>
+                          <!-- Dynamic Counter -->
+                          <h1 class="counter" data-target="27">27</h1>
+                          <!-- Symbol -->
+                          <h1>%</h1>
+                       </span>
+                       <!-- Text -->
+                       <p>More Loyalty Signups</p>
+                    </div>
+                    <!-- Fifth Counter -->
+                    <div>
+                       <span>
+                          <!-- Dynamic Counter -->
+                          <h1 class="counter" data-target="70">70</h1>
+                          <!-- Symbol -->
+                          <h1>%</h1>
+                       </span>
+                       <!-- Text -->
+                       <p>Reduced development time</p>
+                    </div>
+                 </div>
+                 <!-- End Text with Counters -->
+
                   <br>
                   <p>
                      The new Hertz Mobile App achieved a 4.8 out 5 star rating on the App Store, compared to the previous 3.8 stars on the old app. The redesign also led to a 32% increase in monthly mobile app users and a 50% increase in sessions YOY. We also saw a positive impact in engagement, increasing screens/session by 84%.
@@ -307,5 +345,43 @@
       <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.js"></script>
       <script src="https://unpkg.com/flickity-fullscreen@1/fullscreen.js"></script>
       <!-- End Scripts -->
+      <script>
+        function animateCounters() {
+          const counters = document.querySelectorAll('.counter');
+        
+          counters.forEach(counter => {
+            counter.innerText = '0'; // Initialize counter to 0
+            const target = +counter.getAttribute('data-target');
+            const increment = target / 200; // Determine the increment for each step
+        
+            // Function to update the counter
+            const updateCounter = () => {
+              // Convert current innerText to a number
+              const c = +counter.innerText;
+        
+              // If current value is less than target, increment and update
+              if (c < target) {
+                counter.innerText = `${Math.ceil(c + increment)}`;
+                // Continue updating until target is reached
+                setTimeout(updateCounter, 1);
+              } else {
+                // Handle special formatting for thousands (K) and percentages (%)
+                if (counter.hasAttribute('data-format')) {
+                  const format = counter.getAttribute('data-format');
+                  counter.innerText = format.replace('{}', counter.innerText);
+                } else {
+                  counter.innerText = target;
+                }
+              }
+            };
+        
+            updateCounter();
+          });
+        }
+        
+        // Ensure DOM is fully loaded before running the script
+        document.addEventListener('DOMContentLoaded', animateCounters);
+        </script>
+        
    </body>
 </html>
