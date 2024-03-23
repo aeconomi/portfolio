@@ -1133,8 +1133,18 @@ background-color: #c0c0c0;
 
   p {
     margin: 0;
-    font-size: 2.5vmin;
+	font-size: 2vmin;
+    line-height: 3vmin;
   }
+
+
+@media screen and (max-width: 1600px) {
+  p {
+    margin: 0;
+    font-size: 2.5vmin;
+line-height: 3.5vmin;
+  }
+}
 
   .futura,
   #brands-selector ul li a,
