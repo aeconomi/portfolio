@@ -37,7 +37,7 @@
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start; /* Adjusts the alignment of the items if their heights are different */
-  gap: 5%; /* Adjust the gap between the text and the image */
+  gap: 20px; /* Adjust the gap between the text and the image */
 }
 
 .content-flex .text-section, .content-flex .image-section {
@@ -1943,10 +1943,10 @@ background-color: #c0c0c0;
 
   .helvetica,
   #brands-presentation .content p {
-    font: 100% Helvetica Neue Light;
-    line-height: 1.6em;
-    font-size: 2.5vmin;
-    color: #000000
+    /* font: 100% Helvetica Neue Light; */
+    /* line-height: 1.6em; */
+    /* font-size: 2.5vmin; */
+    /* color: #000000; */
   }
 
   @media all and (max-device-width: 767px) {
@@ -2039,10 +2039,10 @@ background-color: #c0c0c0;
 
   .helvetica,
   #brands-presentation .content p {
-    font: 100% Helvetica Neue Light;
-    line-height: 1.6em;
-    font-size: 2.5vmin;
-    color: #000000
+    /* font: 100% Helvetica Neue Light; */
+    /* line-height: 1.6em; */
+    /* font-size: 2vmin; */
+    /* color: #000000; */
   }
 
   @media all and (max-device-width: 767px) {
