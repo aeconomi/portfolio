@@ -76,7 +76,7 @@ li {
 @media (orientation: landscape) {
   .main-block, #brands-presentation, #brands-content {
     width: 75%;
-    margin-left: 10%; /* Adjust this value as needed to align left */
+    margin-left: 25%; /* Adjust this value as needed to align left */
     margin-right: auto;
     padding-right: 0; /* Ensure padding does not push content away from the left edge */
   }
