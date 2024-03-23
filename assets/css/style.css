@@ -73,12 +73,12 @@ li {
 }
 
 
-@media (orientation: landscape) {
-  .main-block, #brands-presentation, #brands-content {
-    width: 75%;
-    margin-left: 25%; /* Adjust this value as needed to align left */
-    margin-right: auto;
-    padding-right: 0; /* Ensure padding does not push content away from the left edge */
+@media all and (orientation: landscape) {
+  #brands-content {
+max-width: 90%;
+    margin-left: 25%;
+    margin-right: 20px;
+    padding-right: 10%;
   }
 }
 
@@ -2268,7 +2268,13 @@ background-color: #c0c0c0;
     display: flex
   }
 
-
+  @media all and (orientation: landscape) {
+    .main-block,
+    #brands-presentation {
+      width: 75%;
+      margin-left: 25%
+    }
+  }
 
   @media all and (orientation: portrait) {
     #brands-presentation {
