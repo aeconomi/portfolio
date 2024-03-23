@@ -405,7 +405,8 @@ p.numbers {
   color: #141c3a;
   padding: 40px;
   margin: 20px;
-  width: 350px;
+  width: 25vw;
+margin-top: 60px;
   text-align: center!important;
 }
 
@@ -521,7 +522,7 @@ h2.title {
   margin-bottom: 2.5rem;
   font: 100% Helvetica Neue Light;
     line-height: 1.6em;
-    font-size: 2.5vmin;
+    font-size: 2vmin;
     color: #000000;
 }
 
