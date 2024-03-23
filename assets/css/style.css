@@ -326,9 +326,11 @@ p.numbers {
   right: 0;
   
 
-/* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */   border-color: black;
+/* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */   
+	border-color: black;
 border-style: solid;
     border-width: 2px;
+	    background-image: linear-gradient(315deg, #f9f9f9 10%, #fbfbfb 84%);
   position: absolute;
   top: 0;
   z-index: -1; 
@@ -829,9 +831,11 @@ img {
   .yellow,
   #brands-contact .square {
 
-   /* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */   border-color: black;
+   /* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */  
+	  border-color: black;
     border-style: solid;
     border-width: 2px;
+	      background-image: linear-gradient(315deg, #f9f9f9 10%, #fbfbfb 84%);
 
   }
 
@@ -1089,10 +1093,11 @@ img {
       left: 0;
       z-index: -1;
 
-  /* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */   border-color: black;
+  /* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */   
+	  border-color: black;
     border-style: solid;
     border-width: 2px;
-
+    background-image: linear-gradient(315deg, #f9f9f9 10%, #fbfbfb 84%);
       transition: all 0.3s ease;
   }
   
@@ -1213,9 +1218,11 @@ line-height: 3.5vmin;
   .yellow,
   #brands-expertises .square {
 
-  /* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */   border-color: black;
+  /* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */   
+	  border-color: black;
     border-style: solid;
     border-width: 2px;
+	      background-image: linear-gradient(315deg, #f9f9f9 10%, #fbfbfb 84%);
 
   }
 
@@ -1305,7 +1312,8 @@ line-height: 3.5vmin;
   .yellow,
   #brands-expertises .square {
 
-/* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */   border-color: black;
+/* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */   
+	  border-color: black;
     border-style: solid;
     border-width: 2px;
 
@@ -1782,10 +1790,12 @@ line-height: 3.5vmin;
   .yellow,
   #brands-partners .text .square,
   #brands-partners .logos .square {
-  /* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */   border-color: black;
+  /* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */   
+	  border-color: black;
 
     border-style: solid;
     border-width: 2px;
+	      background-image: linear-gradient(315deg, #f9f9f9 10%, #fbfbfb 84%);
   }
 
   .square {
@@ -2019,9 +2029,11 @@ line-height: 3.5vmin;
   .yellow,
   #brands-presentation .square {
 
-/* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */   border-color: black;
+/* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */  
+	  border-color: black;
     border-style: solid;
     border-width: 2px;
+	      background-image: linear-gradient(315deg, #f9f9f9 10%, #fbfbfb 84%);
 
   }
 
@@ -2116,9 +2128,11 @@ line-height: 3.5vmin;
   .yellow,
   #brands-presentation .square {
 
-/* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */   border-color: black;
+/* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */   
+	  border-color: black;
     border-style: solid;
     border-width: 2px;
+	      background-image: linear-gradient(315deg, #f9f9f9 10%, #fbfbfb 84%);
 
   }
 
@@ -2467,9 +2481,11 @@ line-height: 3.5vmin;
   .yellow,
   #brands-references .content .detail .square {
 
-/* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */   border-color: black;
+/* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */   
+	  border-color: black;
     border-style: solid;
     border-width: 2px;
+	      background-image: linear-gradient(315deg, #f9f9f9 10%, #fbfbfb 84%);
 
   }
 
@@ -2552,10 +2568,11 @@ line-height: 3.5vmin;
   .yellow,
   #brands-references .content .detail .square {
 
-  /* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */   border-color: black;
+  /* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */  
+	  border-color: black;
     border-style: solid;
     border-width: 2px;
-
+    background-image: linear-gradient(315deg, #f9f9f9 10%, #fbfbfb 84%);
   }
 
   .square {
@@ -2777,9 +2794,11 @@ line-height: 3.5vmin;
   .yellow,
   #brands-video .square {
 
-/* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */   border-color: black;
+/* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */   
+	  border-color: black;
     border-style: solid;
     border-width: 2px;
+	      background-image: linear-gradient(315deg, #f9f9f9 10%, #fbfbfb 84%);
 
   }
 
@@ -2862,9 +2881,11 @@ line-height: 3.5vmin;
   .yellow,
   #brands-video .square {
 
- /* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */   border-color: black;
+ /* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */  
+	  border-color: black;
     border-style: solid;
     border-width: 2px;
+	      background-image: linear-gradient(315deg, #f9f9f9 10%, #fbfbfb 84%);
 
   }
 
@@ -3150,9 +3171,11 @@ line-height: 3.5vmin;
 
   .yellow {
 
- /* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */   border-color: black;
+ /* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */  
+	  border-color: black;
     border-style: solid;
     border-width: 2px;
+	      background-image: linear-gradient(315deg, #f9f9f9 10%, #fbfbfb 84%);
 
   }
 
@@ -3277,7 +3300,9 @@ line-height: 3.5vmin;
     width: 3vw;
     height: 2px;
 background-color: #c0c0c0;
-/* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */   border-color: black;
+/* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */ 
+	  border-color: black;
+	      background-image: linear-gradient(315deg, #f9f9f9 10%, #fbfbfb 84%);
 
 
     content: '';
@@ -3413,9 +3438,11 @@ background-color: #c0c0c0;
   .yellow,
   #apply .square {
 
-/* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */   border-color: black;
+/* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */   
+	  border-color: black;
     border-style: solid;
     border-width: 2px;
+	      background-image: linear-gradient(315deg, #f9f9f9 10%, #fbfbfb 84%);
 
   }
 
@@ -3495,7 +3522,9 @@ background-color: #c0c0c0;
       left: 0;
       z-index: -1;
   background-color: #c0c0c0;
-   /* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */   border-color: black;
+   /* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */   
+	  border-color: black;
+	      background-image: linear-gradient(315deg, #f9f9f9 10%, #fbfbfb 84%);
 
 
       transition: all 0.3s ease;
@@ -3617,8 +3646,9 @@ background-color: #c0c0c0;
 
   .yellow,
   #brands .square {
-
-/* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */   border-color: black;
+    background-image: linear-gradient(315deg, #f9f9f9 10%, #fbfbfb 84%);
+/* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */   
+	border-color: black;
     border-style: solid;
     border-width: 2px;
 
@@ -3862,7 +3892,9 @@ background-color: #c0c0c0;
       width: 3vw;
       height: 2px;
   background-color: #c0c0c0;
-/* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */   border-color: black;
+/* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */  
+	    border-color: black;
+	        background-image: linear-gradient(315deg, #f9f9f9 10%, #fbfbfb 84%);
 	    
 
 
@@ -4227,9 +4259,11 @@ background-color: #c0c0c0;
   .yellow,
   #contact .contact_map .square {
 
-   /* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */   border-color: black;
+   /* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */  
+	  border-color: black;
     border-style: solid;
     border-width: 2px;
+	      background-image: linear-gradient(315deg, #f9f9f9 10%, #fbfbfb 84%);
 
   }
 
@@ -4520,9 +4554,11 @@ background-color: #c0c0c0;
   }
 
   .yellow {
-/* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */   border-color: black;
+/* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */  
+	  border-color: black;
     border-style: solid;
     border-width: 2px;
+	      background-image: linear-gradient(315deg, #f9f9f9 10%, #fbfbfb 84%);
 
   }
 
@@ -4602,7 +4638,9 @@ background-color: #c0c0c0;
     width: 40px;
     height: 2px;
 background-color: #c0c0c0;
-/* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */   border-color: black;
+/* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */   
+	  border-color: black;
+	      background-image: linear-gradient(315deg, #f9f9f9 10%, #fbfbfb 84%);
 
 
     content: '';
@@ -4757,9 +4795,11 @@ background-color: #c0c0c0;
   .yellow,
   #presentation .square {
 
-/* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */   border-color: black;
+/* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */   
+	  border-color: black;
     border-style: solid;
     border-width: 2px;
+	      background-image: linear-gradient(315deg, #f9f9f9 10%, #fbfbfb 84%);
 
   }
 
@@ -5057,9 +5097,11 @@ background-color: #c0c0c0;
 }
 #skills .content .square,
 .yellow {
-/* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */   border-color: black;
+/* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */   
+	border-color: black;
 	    border-style: solid;
     border-width: 2px;
+	    background-image: linear-gradient(315deg, #f9f9f9 10%, #fbfbfb 84%);
 }
 .square {
     -webkit-transition: height 1s cubic-bezier(0.165, 0.84, 0.44, 1),width 0.4s cubic-bezier(0.77, 0, 0.175, 1);
@@ -5208,9 +5250,11 @@ p {
 
   .yellow {
 
-/* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */   border-color: black;
+/* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */  
+	  border-color: black;
     border-style: solid;
     border-width: 2px;
+	      background-image: linear-gradient(315deg, #f9f9f9 10%, #fbfbfb 84%);
 
   }
 
@@ -5878,7 +5922,9 @@ p {
 
   .yellow {
 background-color: #c0c0c0;
-/* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */   border-color: black;
+/* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */   
+	  border-color: black;
+	      background-image: linear-gradient(315deg, #f9f9f9 10%, #fbfbfb 84%);
 
 
   }
@@ -6008,8 +6054,9 @@ background-color: #c0c0c0;
   .arrow:hover:before,
   .arrow:hover:after {
 background-color: #c0c0c0;
-/* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */   border-color: black;
-
+/* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */  
+	  border-color: black;
+    background-image: linear-gradient(315deg, #f9f9f9 10%, #fbfbfb 84%);
 
   content: '';
   display: block;
@@ -6147,9 +6194,11 @@ background-color: #c0c0c0;
 
   .yellow {
 
-/* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */   border-color: black;
+/* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */  
+	  border-color: black;
     border-style: solid;
     border-width: 2px;
+	      background-image: linear-gradient(315deg, #f9f9f9 10%, #fbfbfb 84%);
 
   }
 
