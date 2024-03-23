@@ -1131,8 +1131,16 @@ hr {
 	font-size: 75%
 }
 .h1, h1 {
+	font-size: 46px
+}
+
+@media screen and (max-width: 1600px) {
+ .h1, h1 {
 	font-size: 36px
 }
+}
+
+
 .h2, h2 {
 	font-size: 30px
 }
