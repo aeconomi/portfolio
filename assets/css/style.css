@@ -1138,6 +1138,11 @@ background-color: #c0c0c0;
   }
 
 
+p.reveal-text {
+    line-height: 4vmin;
+}
+
+
 @media screen and (max-width: 1400px) {
   p {
     margin: 0;
