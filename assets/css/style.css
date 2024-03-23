@@ -430,6 +430,14 @@ margin-top: 60px;
 }
 
 
+@media screen and (max-width: 1600px) {
+  .box {
+ margin-top: 20px;
+   
+  }
+}
+
+
 @media screen and (max-width: 420px) {
   .box {
     padding: 20px 20px 20px 20px;
