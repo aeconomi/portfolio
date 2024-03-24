@@ -3943,6 +3943,28 @@ body {
 		margin-left: 0
 }
 }
+
+
+/* Mobile Devices */
+@media (max-width: 767px) {
+  .content div {
+    display: block; /* Show the div */
+    order: 2; /* Drops below the square if flex or grid layout is used */
+  }
+
+  .square {
+    /* Adjustments for the square on mobile devices if needed */
+  }
+}
+
+/* Tablets including iPads */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .content div {
+    display: block; /* Show the div */
+    order: 2; /* Keeps the div below the square */
+  }
+
+
 #presentation .key-numbers {
 	position: absolute;
 	margin-left: 17.5vmin;
