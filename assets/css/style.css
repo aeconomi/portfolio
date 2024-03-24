@@ -4587,7 +4587,12 @@ body {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background-color: #fbfbfb;
+	/* Example: Old Highlight opening color
+	background-color: #fbfbfb; */
+
+  background-image: url('https://aeconomi.github.io/portfolio/assets/images/Other/paint-background.png');
+ opacity: 0.1;
+	
 	-webkit-transform: scaleX(0);
 	transform: scaleX(0);
 	-webkit-transform-origin: 0 50%;
