@@ -341,50 +341,10 @@
       </div>
       <!-- Scripts -->
       <script src="../assets/js/app.min.js"></script>
+      <script src="assets/js/custom.js"></script>
       <!-- Flickity -->
       <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.js"></script>
       <script src="https://unpkg.com/flickity-fullscreen@1/fullscreen.js"></script>
       <!-- End Scripts -->
-   <script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const counters = document.querySelectorAll('.counter');
-
-    const animateCounter = (counter, target) => {
-      let current = 0;
-      const increment = target / 200; // Determine increment to ensure smooth animation
-
-      const updateCounter = () => {
-        current += increment;
-        // Use Math.min to ensure we do not exceed target
-        counter.innerText = `${Math.min(Math.floor(current), target)}`;
-
-        // Continue updating if we haven't reached the target yet
-        if (current < target) {
-          requestAnimationFrame(updateCounter);
-        } else {
-          // Apply final formatting if needed (e.g., appending 'K' for thousands, or '%' for percentages)
-          finalizeCounterDisplay(counter, target);
-        }
-      };
-
-      requestAnimationFrame(updateCounter);
-    };
-
-    const finalizeCounterDisplay = (counter, target) => {
-      // Check if special formatting for thousands ('K') or percentages ('%') is needed
-      if (counter.innerText.endsWith('K')) {
-        counter.innerText = `${target / 1000}K`; // Convert to 'K' notation for thousands
-      } else if (counter.innerText.endsWith('%')) {
-        // No additional formatting needed for percentages in this example
-      }
-    };
-
-    counters.forEach(counter => {
-      const target = parseInt(counter.getAttribute('data-target'), 10);
-      animateCounter(counter, target);
-    });
-  });
-</script>
-        
    </body>
 </html>
