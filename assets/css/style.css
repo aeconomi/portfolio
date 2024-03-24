@@ -387,6 +387,13 @@ p.numbers {
 .box2 h3 {
 	font-size: 2.5vmin;
 }
+
+@media screen and (max-width: 768px) {
+    .box2 h3 {
+        font-size: 4.5vmin;
+    }
+}
+
 .box3 {
 	background-color: white;
 	border-radius: 40px;
