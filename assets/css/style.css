@@ -2771,7 +2771,10 @@ body {
 	/* Old Gradient Color background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%);
 	*/
 	border-color: black;
-	background-image: linear-gradient(315deg, #f9f9f9 10%, #fbfbfb 84%);
+	 background-image: url(https://aeconomi.github.io/portfolio/assets/images/Other/paint-background.png);
+    /* background-size: cover; */
+    background-position: center;
+    background-repeat: no-repeat;
 	transition: all 0.3s ease;
 }
 #apply .content button:hover {
