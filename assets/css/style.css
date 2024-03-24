@@ -2771,10 +2771,7 @@ body {
 	/* Old Gradient Color background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%);
 	*/
 	border-color: black;
-	 background-image: url(https://aeconomi.github.io/portfolio/assets/images/Other/paint-background.png);
-    /* background-size: cover; */
-    background-position: center;
-    background-repeat: no-repeat;
+	background-image: linear-gradient(315deg, #f9f9f9 10%, #fbfbfb 84%);
 	transition: all 0.3s ease;
 }
 #apply .content button:hover {
@@ -3993,7 +3990,127 @@ body {
 p {
 	margin: 0
 }
+
+
+
+
+/* ======================== Presentation 2 Key Numbers ======================== */
+
+
+
+#presentation-2 .key-numbers {
+	position: absolute;
+	margin-left: 17.5vmin;
+	margin-top: 60vh;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-justify-content: center;
+	justify-content: center;
+	width: 60%
+}
+@media all and (orientation: portrait) {
+	#presentation-2 .key-numbers {
+		margin-top: 45vh;
+		width: calc(100% - (5vmin + 5vmin) * 2);
+		margin-left: 5vmin
+}
+}
+@media all and (orientation: portrait) and (min-device-width: 768px) and (max-device-width: 1024px),all and (orientation: portrait) and (min-width: 480px) and (max-width: 1024px) {
+	#presentation-2 .key-numbers {
+		width: 72%
+}
+}
+@media all and (orientation: landscape) and (max-device-width: 480px),all and (orientation: landscape) and (max-device-width: 767px),all and (orientation: landscape) and (max-width: 480px),all and (orientation: landscape) and (min-device-width: 768px) and (max-device-width: 1024px),all and (orientation: landscape) and (min-width: 480px) and (max-width: 1024px) {
+	#presentation-2 .key-numbers {
+		margin-top: 60vh;
+		margin-left: 5vmin
+}
+}
+@media all and (orientation: landscape) and (max-device-width: 480px),all and (orientation: landscape) and (max-device-width: 767px),all and (orientation: landscape) and (max-width: 480px) {
+	#presentation-2 .key-numbers {
+		width: 65%
+}
+}
+#presentation-2 .key-numbers div {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-align-items: flex-start;
+	align-items: flex-start;
+	-webkit-flex: 1 1;
+	-ms-flex: 1 1;
+	flex: 1 1;
+	min-width: calc(60% / 5 - 2vw)
+}
+@media all and (orientation: portrait) {
+	#presentation-2 .key-numbers div {
+		min-width: calc(calc(100% - (5vmin + 5vmin) * 2) / 5 - 1vw)
+}
+}
+@media all and (orientation: portrait) and (min-device-width: 768px) and (max-device-width: 1024px),all and (orientation: portrait) and (min-width: 480px) and (max-width: 1024px) {
+	#presentation-2 .key-numbers div {
+		width: calc(72% / 5 - 1vw)
+}
+}
+#presentation-2 .key-numbers h1 {
+	font-size: 6vmin;
+	display: inline
+}
+#presentation-2 .key-numbers p {
+	font-size: 2.2vmin;
+	text-align: left
+}
+@media all and (max-device-width: 480px),all and (max-device-width: 767px),all and (max-width: 480px) {
+	#presentation-2 .key-numbers p {
+		font-size: 3vmin
+}
+}
+
+
+.futura,#presentation-2 .content h1,#presentation-2 .key-numbers h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: #000000;
+	font-size: 5.5vmin;
+	text-transform: uppercase
+}
+#presentation-2 .key-numbers p {
+	line-height:1.25em;
+	font-size:2.2vmin
+}
+.helvetica,#presentation-2 .content p,#presentation-2 .key-numbers p {
+	font: 100% Helvetica Neue Light;
+	line-height: 1.6em;
+	font-size: 2.5vmin;
+	color: #000000
+}
+@media all and (max-device-width: 480px),all and (max-device-width: 767px),all and (max-width: 480px) {
+	.helvetica,#presentation-2 .content p,#presentation-2 .key-numbers p {
+		line-height: 1.25em;
+		font-size: 3.5vmin
+}
+}
+.key-numbers > div {
+	width: 100px;
+}
+
+
 /* ======================== Our Clients Section ======================== */
+
+
+
+
 #skills .content h1,.futura {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
@@ -5064,3 +5181,5 @@ body {
 		display: none;
 	}
 }
+
+
