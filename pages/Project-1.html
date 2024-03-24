@@ -336,28 +336,5 @@
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.js"></script>
     <script src="https://unpkg.com/flickity-fullscreen@1/fullscreen.js"></script>
     <!-- End Scripts -->
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const counters = document.querySelectorAll('.counter');
-        counters.forEach(counter => {
-          const updateCount = () => {
-            const target = +counter.getAttribute('data-target');
-            const count = +counter.innerText;
-            const increment = target / 200; // Adjust the division value for speed
-            if (count < target) {
-              counter.innerText = Math.ceil(count + increment);
-              setTimeout(updateCount, 1);
-            } else {
-              counter.innerText = target;
-              // If counter has a symbol like 'K' or '%', append it after reaching the target
-              if (counter.nextElementSibling && counter.nextElementSibling.tagName === 'H1') {
-                counter.innerText += counter.nextElementSibling.innerText;
-              }
-            }
-          };
-          updateCount();
-        });
-      });
-    </script>
   </body>
 </html>
