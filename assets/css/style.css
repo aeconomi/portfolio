@@ -2629,8 +2629,10 @@ body {
 	/* Old Gradient Color background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%);
 	*/
 	border-color: black;
-	background-image: linear-gradient(315deg, #f9f9f9 10%, #fbfbfb 84%);
-	content: '';
+	background-image: url(https://aeconomi.github.io/portfolio/assets/images/Other/paint-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 	-moz-transition: width 0.3s cubic-bezier(0.77, 0, 0.175, 1);
 	-o-transition: width 0.3s cubic-bezier(0.77, 0, 0.175, 1);
 	-webkit-transition: width 0.3s cubic-bezier(0.77, 0, 0.175, 1);
