@@ -1581,6 +1581,8 @@ background-position: center;
 background-repeat: no-repeat;
 background-attachment: fixed;
 width: 100%; /* Example: makes the element take the full width of its container */
+ /* Set the opacity to 10% */
+ opacity: 0.1;
 }
 .square {
 	-webkit-transition: height 1s cubic-bezier(0.165, 0.84, 0.44, 1), width 0.4s cubic-bezier(0.77, 0, 0.175, 1);
