@@ -261,7 +261,9 @@ p.numbers {
 	left: 0;
 	right: 0;
   /* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */   
-  background-image: linear-gradient(315deg, #f9f9f9 10%, #fbfbfb 84%);
+  background-image: url('https://aeconomi.github.io/portfolio/assets/images/Other/paint-background.png');
+   /* Set the opacity to 10% */
+ opacity: 0.1;
 	position: absolute;
 	top: 0;
 	z-index: -1; 
