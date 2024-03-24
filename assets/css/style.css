@@ -4035,7 +4035,8 @@ body {
 }
 @media all and (orientation: portrait) {
 	#presentation .square.is-visible {
-		height: 33vh
+ height: 12vh;
+    width: 100vmin;
 }
 }
 p {
