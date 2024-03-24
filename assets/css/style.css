@@ -19,6 +19,12 @@
 	display: none;
 }
 
+@media (orientation: portrait) {
+  .description > h3 {
+    display: none;
+  }
+}
+
 .flickity-page-dots .dot {
 }
 
