@@ -105,8 +105,8 @@ p.numbers {
 	margin-bottom: 20px;
 	margin-top: 20px;
 	margin-right: 20px;
-	height: 140px;
-	width: 400px;
+    height: 25vh;
+    width: 30vw;
 }
 @media screen and (max-width: 850px) {
 	.small-round-box {
