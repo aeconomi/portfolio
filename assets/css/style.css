@@ -16,6 +16,7 @@
 /* Custom CSS */
 .flickity-page-dots {
     bottom: 0;
+	display: none;
 }
 
 
