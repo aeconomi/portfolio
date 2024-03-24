@@ -174,7 +174,7 @@
                   <div>
                     <span>
                       <!-- Dynamic Counter -->
-                      <h1 class="counter">76</h1>
+                      <h1 class="counter" data-target="76">0</h1>
                       <!-- Symbol -->
                       <h1></h1>
                     </span>
@@ -185,7 +185,7 @@
                   <div>
                     <span>
                       <!-- Dynamic Counter -->
-                      <h1 class="counter">3</h1>
+                      <h1 class="counter" data-target="3">0</h1>
                       <!-- Symbol -->
                       <h1></h1>
                     </span>
@@ -196,7 +196,7 @@
                   <div>
                     <span>
                       <!-- Dynamic Counter -->
-                      <h1 class="counter">6</h1>
+                      <h1 class="counter" data-target="6">0</h1>
                       <!-- Symbol -->
                       <h1>K</h1>
                     </span>
@@ -207,7 +207,7 @@
                   <div>
                     <span>
                       <!-- Dynamic Counter -->
-                      <h1 class="counter">27</h1>
+                      <h1 class="counter" data-target="27">0</h1>
                       <!-- Symbol -->
                       <h1>%</h1>
                     </span>
@@ -218,7 +218,7 @@
                   <div>
                     <span>
                       <!-- Dynamic Counter -->
-                      <h1 class="counter">70</h1>
+                      <h1 class="counter" data-target="70">0</h1>
                       <!-- Symbol -->
                       <h1>%</h1>
                     </span>
@@ -315,5 +315,33 @@
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.js"></script>
     <script src="https://unpkg.com/flickity-fullscreen@1/fullscreen.js"></script>
     <!-- End Scripts -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        // Select all counter elements
+        const counters = document.querySelectorAll('.counter');
+    
+        counters.forEach(counter => {
+          const updateCount = () => {
+            // Current count, target count, and the increment step
+            const current = +counter.innerText;
+            const target = +counter.getAttribute('data-target');
+            const increment = target / 200;
+    
+            if(current < target) {
+              // Update the count
+              counter.innerText = `${Math.ceil(current + increment)}`;
+              // Recall the function every few milliseconds
+              setTimeout(updateCount, 1);
+            } else {
+              counter.innerText = target;
+            }
+          };
+    
+          updateCount();
+        });
+      });
+    </script>
+
+
   </body>
 </html>
