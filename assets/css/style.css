@@ -3368,7 +3368,7 @@ body {
 @media all and (orientation: portrait) {
 	#brands .square.is-visible {
 		width: calc(90% - 5vmin);
-		height: 55vh;
+		height: 50vh;
 		margin-top: 10px;
 }
 }
