@@ -364,8 +364,8 @@ p.numbers {
 }
 
 
-/* Mobile devices (max-width: 768px) */
-@media screen and (max-width: 768px) {
+/* Mobile devices (max-width: 840px) */
+@media screen and (max-width: 840px) {
     .box {
         width: 75vw;
     }
