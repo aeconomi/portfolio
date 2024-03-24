@@ -39,9 +39,7 @@
 h1, h2, h3, h4, h5 {
 	font-family: 'Montserrat', sans-serif;
 }
-li {
-	font-size: 2.5vmin;
-}
+
 @media screen and (max-width: 850px) {
 	li {
 		font-size: 2.2vmin;
