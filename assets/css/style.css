@@ -251,28 +251,26 @@ p.numbers {
 		display: block;
 	}
 }
+
+
+
 .full-square {
 	height: 40%;
 	width: 100%;
 	top: 0;
 	left: 0;
 	right: 0;
-	/* Old Gradient Color background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%);
-	*/
-	background-image: url('https://aeconomi.github.io/portfolio/assets/images/Other/paint-background.png');
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-background-attachment: fixed;
-width: 100%; /* Example: makes the element take the full width of its container */
- /* Set the opacity to 10% */
- opacity: 0.1;
-/* Old Settings */
+  /* Old Gradient Color   background-image: linear-gradient(315deg, #caedef 10%, #fbfbfb 84%); */   
+  background-image: linear-gradient(315deg, #f9f9f9 10%, #fbfbfb 84%);
+	position: absolute;
 	top: 0;
-	z-index: -1;
-	/* Unique border-radius for each corner */
-	border-radius: 40% 20% 30% 10% / 10% 30% 20% 40%;
-}
+	z-index: -1; 
+  /* Unique border-radius for each corner */
+	  border-radius: 40% 20% 30% 10% / 10% 30% 20% 40%;
+  }
+  
+
+
 .flex-container {
 	display: flex;
 	flex-flow: row wrap;
