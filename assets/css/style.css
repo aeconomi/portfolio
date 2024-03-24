@@ -1306,7 +1306,7 @@ body {
 	height: 38%;
 	width: 32%;
 	z-index: -1;
-	opacity: 1;
+	opacity: .1;
 	border-radius: 30px 25px 90px 15px;
 }
 @media all and (orientation: portrait) {
