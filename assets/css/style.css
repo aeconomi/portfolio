@@ -3303,7 +3303,7 @@ body {
 	height: 55vh;
 	width: 60vw;
 	border-radius: 30px 25px 90px 15px;
-	opacity: 1;
+	opacity: .1;
 }
 @media all and (orientation: portrait) {
 	#brands .square.is-visible {
