@@ -778,7 +778,7 @@ body {
 	top: 50%;
 	right: -5vw;
 	width: 3vw;
-	height: 2px;
+	height: 10px;
 	background: #000000;
 	content: '';
 	-moz-transition: width 0.3s cubic-bezier(0.77, 0, 0.175, 1);
