@@ -4000,8 +4000,8 @@ p {
 
 #presentation-2 .key-numbers {
 	position: absolute;
-	margin-left: 17.5vmin;
-	margin-top: 60vh;
+	margin-left: 0vw;
+	margin-top: 0vh;
 	display: -webkit-box;
 	display: -moz-box;
 	display: -webkit-flex;
