@@ -256,6 +256,7 @@ p.numbers {
 	}
 	.results2 {
 		margin-right: 0;
+		width: 75%;
 	}
 	.results {
 		display: block;
