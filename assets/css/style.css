@@ -19,7 +19,9 @@
 	display: none;
 }
 
-
+td {
+    padding-right: 15px;
+}
 
 .typewrite {
 	pointer-events: none;
