@@ -350,6 +350,23 @@ p.numbers {
 		padding: 20px 20px 20px 20px;
 	}
 }
+
+
+/* Mobile devices (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    .box {
+        width: 75vw;
+    }
+}
+
+/* iPads and tablets up to 1024px in portrait mode */
+@media screen and (max-width: 1024px) {
+    .box {
+        width: 75vw;
+    }
+}
+
+
 @media all and (orientation: landscape) {
 	.box2 {
 		width: 100%;
@@ -2819,6 +2836,17 @@ p {
 	font-size: 2.5vmin;
 	color: #000000
 }
+
+@media screen and (orientation: portrait) {
+  .helvetica, #brands .content .detail .text div.description p, #brands .content .detail .text button {
+    font: 100% Helvetica Neue Light;
+    line-height: 1.4em;
+    font-size: 2.5vmin;
+    color: #000000;
+  }
+}
+
+
 @media all and (max-device-width: 950px){
 	.helvetica,#brands .content .detail .text div.description p,#brands .content .detail .text button {
 		font: 100% Helvetica Neue Light;
@@ -3127,7 +3155,7 @@ body {
 @media all and (orientation: portrait) {
 	#brands .content .detail #selector ul li.active h1 {
 		margin-top: 0;
-		font-size: 5.5vmin
+		font-size: 3.5vmin
 }
 	#brands .content .detail #selector ul li.active p {
 		font-size: 3.5vmin
@@ -3255,6 +3283,7 @@ body {
 }
 	#brands .content .detail .bottom-slider div img {
 		height: 6vh;
+		width: auto;
 	}
 	#brands .content .detail .bottom-slider .bottom-slide {
 		display: inline-flex;
@@ -3307,7 +3336,6 @@ body {
 }
 @media all and (orientation: portrait) {
 	#brands .square.is-visible {
-		top: 25%;
 		width: calc(90% - 5vmin);
 		height: 50vh
 }
