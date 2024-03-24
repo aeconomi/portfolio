@@ -19,6 +19,9 @@
 	display: none;
 }
 
+.flickity-page-dots .dot {
+}
+
 td {
     padding-right: 15px;
 }
