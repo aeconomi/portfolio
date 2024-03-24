@@ -1918,7 +1918,7 @@ body {
 @media screen and (orientation: portrait) and (max-width: 768px) {
   #brands-presentation .square.is-visible {
     width: 68%;
-    height: 7%;
+    height: 10%;
   }
 }
 
