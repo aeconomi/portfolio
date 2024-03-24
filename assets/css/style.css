@@ -4104,6 +4104,28 @@ p {
 }
 
 
+
+#presentation-2 .description-text {
+    margin-top: 3vh; /* Adjusts spacing between the counters and the text */
+    padding: 0 5vmin; /* Adds padding on the sides for better readability */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Ensures font consistency */
+    color: #333; /* Dark grey for readability */
+    line-height: 1.6; /* Improves readability */
+}
+
+#presentation-2 .description-text p {
+    font-size: 2.5vmin; /* Adjusts font size for readability on various devices */
+    text-align: justify; /* Justifies the text for a cleaner look */
+    margin-bottom: 2vh; /* Adds bottom margin for spacing between paragraphs */
+}
+
+@media all and (max-width: 767px) {
+    #presentation-2 .description-text p {
+        font-size: 3.5vmin; /* Slightly larger text for smaller screens */
+    }
+}
+
+
 /* ======================== Our Clients Section ======================== */
 
 
