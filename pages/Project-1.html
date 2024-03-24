@@ -345,43 +345,46 @@
       <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.js"></script>
       <script src="https://unpkg.com/flickity-fullscreen@1/fullscreen.js"></script>
       <!-- End Scripts -->
-      <script>
-        function animateCounters() {
-          const counters = document.querySelectorAll('.counter');
-        
-          counters.forEach(counter => {
-            counter.innerText = '0'; // Initialize counter to 0
-            const target = +counter.getAttribute('data-target');
-            const increment = target / 200; // Determine the increment for each step
-        
-            // Function to update the counter
-            const updateCounter = () => {
-              // Convert current innerText to a number
-              const c = +counter.innerText;
-        
-              // If current value is less than target, increment and update
-              if (c < target) {
-                counter.innerText = `${Math.ceil(c + increment)}`;
-                // Continue updating until target is reached
-                setTimeout(updateCounter, 1);
-              } else {
-                // Handle special formatting for thousands (K) and percentages (%)
-                if (counter.hasAttribute('data-format')) {
-                  const format = counter.getAttribute('data-format');
-                  counter.innerText = format.replace('{}', counter.innerText);
-                } else {
-                  counter.innerText = target;
-                }
-              }
-            };
-        
-            updateCounter();
-          });
+   <script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const counters = document.querySelectorAll('.counter');
+
+    const animateCounter = (counter, target) => {
+      let current = 0;
+      const increment = target / 200; // Determine increment to ensure smooth animation
+
+      const updateCounter = () => {
+        current += increment;
+        // Use Math.min to ensure we do not exceed target
+        counter.innerText = `${Math.min(Math.floor(current), target)}`;
+
+        // Continue updating if we haven't reached the target yet
+        if (current < target) {
+          requestAnimationFrame(updateCounter);
+        } else {
+          // Apply final formatting if needed (e.g., appending 'K' for thousands, or '%' for percentages)
+          finalizeCounterDisplay(counter, target);
         }
-        
-        // Ensure DOM is fully loaded before running the script
-        document.addEventListener('DOMContentLoaded', animateCounters);
-        </script>
+      };
+
+      requestAnimationFrame(updateCounter);
+    };
+
+    const finalizeCounterDisplay = (counter, target) => {
+      // Check if special formatting for thousands ('K') or percentages ('%') is needed
+      if (counter.innerText.endsWith('K')) {
+        counter.innerText = `${target / 1000}K`; // Convert to 'K' notation for thousands
+      } else if (counter.innerText.endsWith('%')) {
+        // No additional formatting needed for percentages in this example
+      }
+    };
+
+    counters.forEach(counter => {
+      const target = parseInt(counter.getAttribute('data-target'), 10);
+      animateCounter(counter, target);
+    });
+  });
+</script>
         
    </body>
 </html>
