@@ -2872,7 +2872,7 @@ p {
   .helvetica, #brands .content .detail .text div.description p, #brands .content .detail .text button {
     font: 100% Helvetica Neue Light;
     line-height: 1.4em;
-    font-size: 2.5vmin;
+    font-size: 2vmin;
     color: #000000;
   }
 }
