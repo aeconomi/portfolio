@@ -3272,6 +3272,39 @@ body {
 	background-color: #202020;
 	transition: all 0.3s ease;
 }
+
+
+/* CSS for mobile devices in portrait mode */
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+   #brands .content .detail .text a button {
+    border: none;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+#brands .content .detail .text a button {
+    background: white;
+ 
+}
+	
+}
+
+/* CSS for iPads in portrait mode */
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+   #brands .content .detail .text a button {
+    border: none;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+#brands .content .detail .text a button {
+    background: white;
+ 
+}
+}
+
+
+
 #brands .content .detail .text a button:hover {
 	color: #fff;
 	border: 1px solid #000;
