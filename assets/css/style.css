@@ -3716,7 +3716,11 @@ body {
 }
 }
 #menu .menu_logo img {
-	height: 10vh
+	height: 10vh;
+    object-fit: contain; /* Ensures the image aspect ratio is preserved */
+    width: auto; /* Adjusts the width automatically to maintain aspect ratio */
+    max-width: 100%; /* Ensures the image doesn't exceed its parent's width */
+	
 }
 #menu .menu_socials {
 	display: inline-flex;
