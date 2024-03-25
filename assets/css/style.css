@@ -35,7 +35,12 @@ border-radius: 20px; /* 5px rounded corners */
   z-index: -1; /* Places the background below the content */
 }
 
-
+@media screen and (max-width: 1600px){
+.h2, h2 {
+    font-size: 2em;
+    padding-bottom: 5px;
+}
+}
 @media screen and (max-width: 860px){
 .h2, h2 {
     font-size: 2em;
