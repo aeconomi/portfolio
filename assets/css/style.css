@@ -14,6 +14,22 @@
 #contact - last section of main page with contacts and map;
 ========================================================*/
 /* Custom CSS */
+
+.results {
+background-image: url('https://aeconomi.github.io/portfolio/assets/images/Other/paint-background.png');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+width: 100%; /* Example: makes the element take the full width of its container */
+ /* Set the opacity to 10% */
+ opacity: 0.1;
+  padding: 20px; /* 20px padding on all sides */
+  border-radius: 5px; /* 5px rounded corners */
+}
+
+
+
 .flickity-page-dots {
     bottom: 0;
 	display: none;
