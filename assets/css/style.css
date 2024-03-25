@@ -163,13 +163,14 @@ p.numbers {
 }
 @media screen and (max-width: 850px) {
 	.small-round-box {
-		border: #ECECF0 solid 1px;
-		border-radius: 10px;
-		padding: 6%;
-		margin-bottom: 20px;
-		margin-right: 20px;
-		height: 140px;
-		width: 250px;
+	    border: #ECECF0 solid 1px;
+    border-radius: 10px;
+    padding: 6%;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    height: 140px;
+    width: 300px;
 	}
 }
 @media screen and (max-width: 420px) {
