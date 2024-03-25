@@ -35,17 +35,18 @@ border-radius: 20px; /* 5px rounded corners */
   z-index: -1; /* Places the background below the content */
 }
 
-@media screen and (max-width: 1600px){
-.h2, h2 {
-    font-size: 2em;
-    padding-bottom: 5px;
+/* Styles for screens with a max-width of 1600px */
+@media screen and (max-width: 1600px) {
+    .case-study {
+        font-size: 1em;
+    }
 }
-}
-@media screen and (max-width: 860px){
-.h2, h2 {
-    font-size: 2em;
-    padding-bottom: 5px;
-}
+
+/* Styles for screens with a max-width of 860px */
+@media screen and (max-width: 860px) {
+    .case-study {
+        font-size: 2em;
+    }
 }
 
 .flickity-page-dots {
