@@ -36,8 +36,12 @@ border-radius: 20px; /* 5px rounded corners */
 }
 
 
-
-
+@media screen and (max-width: 1600px){
+.h2, h2 {
+    font-size: 2em;
+    padding-bottom: 5px;
+}
+}
 
 .flickity-page-dots {
     bottom: 0;
