@@ -45,7 +45,7 @@ border-radius: 20px; /* 5px rounded corners */
 /* Styles for screens with a max-width of 860px */
 @media screen and (max-width: 860px) {
     .case-study {
-        font-size: 2em;
+        font-size: 1.7em;
     }
 }
 
