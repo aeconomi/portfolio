@@ -3798,7 +3798,7 @@ body {
 	font-size: 7vmin;
 	text-decoration: none;
 	display: inline-block;
-	padding: 6px 5px;
+	padding: 20px 5px;
 	position: relative
 }
 #menu .menu_entry .menu_item:before,#menu .menu_entry .menu_item:after {
